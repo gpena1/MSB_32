@@ -1,2 +1,2 @@
-# ALU_32
+# ALU32
 32-bit ALU
