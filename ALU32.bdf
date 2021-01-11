@@ -3333,26 +3333,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 928 112)
-	(pt 960 112)
-)
-(connector
-	(pt 960 112)
-	(pt 960 256)
-)
-(connector
-	(pt 960 256)
-	(pt 720 256)
-)
-(connector
-	(pt 720 256)
-	(pt 720 400)
-)
-(connector
-	(pt 720 400)
-	(pt 736 400)
-)
-(connector
 	(pt 736 416)
 	(pt 680 416)
 )
@@ -3411,18 +3391,6 @@ refer to the applicable agreement for further details.
 	(pt 320 384)
 )
 (connector
-	(pt 960 472)
-	(pt 720 472)
-)
-(connector
-	(pt 720 472)
-	(pt 720 616)
-)
-(connector
-	(pt 720 616)
-	(pt 736 616)
-)
-(connector
 	(pt 736 632)
 	(pt 680 632)
 )
@@ -3472,21 +3440,9 @@ refer to the applicable agreement for further details.
 	(pt 320 600)
 )
 (connector
-	(pt 928 336)
-	(pt 960 336)
-)
-(connector
-	(pt 960 336)
-	(pt 960 472)
-)
-(connector
 	(pt 1032 320)
 	(pt 1032 536)
 	(bus)
-)
-(connector
-	(pt 720 832)
-	(pt 736 832)
 )
 (connector
 	(pt 736 848)
@@ -3508,10 +3464,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 800)
 	(pt 448 800)
-)
-(connector
-	(pt 720 704)
-	(pt 720 832)
 )
 (connector
 	(pt 320 600)
@@ -3539,18 +3491,6 @@ refer to the applicable agreement for further details.
 	(pt 448 800)
 )
 (connector
-	(pt 720 704)
-	(pt 960 704)
-)
-(connector
-	(pt 960 704)
-	(pt 960 552)
-)
-(connector
-	(pt 960 552)
-	(pt 928 552)
-)
-(connector
 	(text "A[3]" (rect 368 768 388 780)(font "Arial" ))
 	(pt 736 784)
 	(pt 360 784)
@@ -3559,18 +3499,6 @@ refer to the applicable agreement for further details.
 	(text "B[3]" (rect 330 800 350 812)(font "Arial" ))
 	(pt 736 816)
 	(pt 320 816)
-)
-(connector
-	(pt 960 928)
-	(pt 720 928)
-)
-(connector
-	(pt 720 928)
-	(pt 720 1072)
-)
-(connector
-	(pt 720 1072)
-	(pt 736 1072)
 )
 (connector
 	(pt 736 1088)
@@ -3594,10 +3522,6 @@ refer to the applicable agreement for further details.
 	(pt 448 1040)
 )
 (connector
-	(pt 720 1288)
-	(pt 736 1288)
-)
-(connector
 	(pt 736 1304)
 	(pt 680 1304)
 )
@@ -3617,22 +3541,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 1256)
 	(pt 448 1256)
-)
-(connector
-	(pt 720 1160)
-	(pt 720 1288)
-)
-(connector
-	(pt 720 1160)
-	(pt 960 1160)
-)
-(connector
-	(pt 960 1160)
-	(pt 960 1008)
-)
-(connector
-	(pt 960 1008)
-	(pt 928 1008)
 )
 (connector
 	(pt 320 816)
@@ -3683,18 +3591,6 @@ refer to the applicable agreement for further details.
 	(pt 448 1256)
 )
 (connector
-	(pt 960 1376)
-	(pt 720 1376)
-)
-(connector
-	(pt 720 1376)
-	(pt 720 1520)
-)
-(connector
-	(pt 720 1520)
-	(pt 736 1520)
-)
-(connector
 	(pt 736 1536)
 	(pt 680 1536)
 )
@@ -3716,10 +3612,6 @@ refer to the applicable agreement for further details.
 	(pt 448 1488)
 )
 (connector
-	(pt 720 1736)
-	(pt 736 1736)
-)
-(connector
 	(pt 736 1752)
 	(pt 680 1752)
 )
@@ -3739,22 +3631,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 1704)
 	(pt 448 1704)
-)
-(connector
-	(pt 720 1608)
-	(pt 720 1736)
-)
-(connector
-	(pt 720 1608)
-	(pt 960 1608)
-)
-(connector
-	(pt 960 1608)
-	(pt 960 1456)
-)
-(connector
-	(pt 960 1456)
-	(pt 928 1456)
 )
 (connector
 	(pt 320 1272)
@@ -3800,26 +3676,6 @@ refer to the applicable agreement for further details.
 	(pt 448 1704)
 )
 (connector
-	(pt 928 768)
-	(pt 960 768)
-)
-(connector
-	(pt 960 768)
-	(pt 960 928)
-)
-(connector
-	(pt 928 1224)
-	(pt 960 1224)
-)
-(connector
-	(pt 960 1224)
-	(pt 960 1376)
-)
-(connector
-	(pt 720 1944)
-	(pt 736 1944)
-)
-(connector
 	(pt 736 1960)
 	(pt 680 1960)
 )
@@ -3839,10 +3695,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 1912)
 	(pt 448 1912)
-)
-(connector
-	(pt 720 2160)
-	(pt 736 2160)
 )
 (connector
 	(pt 736 2176)
@@ -3866,34 +3718,6 @@ refer to the applicable agreement for further details.
 	(pt 448 2128)
 )
 (connector
-	(pt 720 2032)
-	(pt 720 2160)
-)
-(connector
-	(pt 720 2032)
-	(pt 960 2032)
-)
-(connector
-	(pt 960 2032)
-	(pt 960 1880)
-)
-(connector
-	(pt 960 1880)
-	(pt 928 1880)
-)
-(connector
-	(pt 960 2248)
-	(pt 720 2248)
-)
-(connector
-	(pt 720 2248)
-	(pt 720 2392)
-)
-(connector
-	(pt 720 2392)
-	(pt 736 2392)
-)
-(connector
 	(pt 736 2408)
 	(pt 680 2408)
 )
@@ -3915,10 +3739,6 @@ refer to the applicable agreement for further details.
 	(pt 448 2360)
 )
 (connector
-	(pt 720 2608)
-	(pt 736 2608)
-)
-(connector
 	(pt 736 2624)
 	(pt 680 2624)
 )
@@ -3938,34 +3758,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 2576)
 	(pt 448 2576)
-)
-(connector
-	(pt 720 2480)
-	(pt 720 2608)
-)
-(connector
-	(pt 720 2480)
-	(pt 960 2480)
-)
-(connector
-	(pt 960 2480)
-	(pt 960 2328)
-)
-(connector
-	(pt 960 2328)
-	(pt 928 2328)
-)
-(connector
-	(pt 928 2096)
-	(pt 960 2096)
-)
-(connector
-	(pt 960 2096)
-	(pt 960 2248)
-)
-(connector
-	(pt 720 1808)
-	(pt 720 1944)
 )
 (connector
 	(pt 320 1928)
@@ -4047,10 +3839,6 @@ refer to the applicable agreement for further details.
 	(pt 448 2576)
 )
 (connector
-	(pt 720 2808)
-	(pt 736 2808)
-)
-(connector
 	(pt 736 2824)
 	(pt 680 2824)
 )
@@ -4070,10 +3858,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 2776)
 	(pt 448 2776)
-)
-(connector
-	(pt 720 3024)
-	(pt 736 3024)
 )
 (connector
 	(pt 736 3040)
@@ -4097,34 +3881,6 @@ refer to the applicable agreement for further details.
 	(pt 448 2992)
 )
 (connector
-	(pt 720 2896)
-	(pt 720 3024)
-)
-(connector
-	(pt 720 2896)
-	(pt 960 2896)
-)
-(connector
-	(pt 960 2896)
-	(pt 960 2744)
-)
-(connector
-	(pt 960 2744)
-	(pt 928 2744)
-)
-(connector
-	(pt 960 3112)
-	(pt 720 3112)
-)
-(connector
-	(pt 720 3112)
-	(pt 720 3256)
-)
-(connector
-	(pt 720 3256)
-	(pt 736 3256)
-)
-(connector
 	(pt 736 3272)
 	(pt 680 3272)
 )
@@ -4146,10 +3902,6 @@ refer to the applicable agreement for further details.
 	(pt 448 3224)
 )
 (connector
-	(pt 720 3472)
-	(pt 736 3472)
-)
-(connector
 	(pt 736 3488)
 	(pt 680 3488)
 )
@@ -4169,30 +3921,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 3440)
 	(pt 448 3440)
-)
-(connector
-	(pt 720 3344)
-	(pt 720 3472)
-)
-(connector
-	(pt 720 3344)
-	(pt 960 3344)
-)
-(connector
-	(pt 960 3344)
-	(pt 960 3192)
-)
-(connector
-	(pt 960 3192)
-	(pt 928 3192)
-)
-(connector
-	(pt 928 2960)
-	(pt 960 2960)
-)
-(connector
-	(pt 960 2960)
-	(pt 960 3112)
 )
 (connector
 	(pt 320 2792)
@@ -4274,10 +4002,6 @@ refer to the applicable agreement for further details.
 	(pt 448 3440)
 )
 (connector
-	(pt 720 3672)
-	(pt 736 3672)
-)
-(connector
 	(pt 736 3688)
 	(pt 680 3688)
 )
@@ -4297,10 +4021,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 3640)
 	(pt 448 3640)
-)
-(connector
-	(pt 720 3888)
-	(pt 736 3888)
 )
 (connector
 	(pt 736 3904)
@@ -4324,26 +4044,6 @@ refer to the applicable agreement for further details.
 	(pt 448 3856)
 )
 (connector
-	(pt 720 3760)
-	(pt 720 3888)
-)
-(connector
-	(pt 960 3760)
-	(pt 960 3608)
-)
-(connector
-	(pt 960 3608)
-	(pt 928 3608)
-)
-(connector
-	(pt 720 3976)
-	(pt 720 4120)
-)
-(connector
-	(pt 720 4120)
-	(pt 736 4120)
-)
-(connector
 	(pt 736 4136)
 	(pt 680 4136)
 )
@@ -4365,10 +4065,6 @@ refer to the applicable agreement for further details.
 	(pt 448 4088)
 )
 (connector
-	(pt 720 4336)
-	(pt 736 4336)
-)
-(connector
 	(pt 736 4352)
 	(pt 680 4352)
 )
@@ -4388,42 +4084,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 4304)
 	(pt 448 4304)
-)
-(connector
-	(pt 720 4208)
-	(pt 720 4336)
-)
-(connector
-	(pt 720 4208)
-	(pt 960 4208)
-)
-(connector
-	(pt 960 4208)
-	(pt 960 4056)
-)
-(connector
-	(pt 960 4056)
-	(pt 928 4056)
-)
-(connector
-	(pt 928 3824)
-	(pt 960 3824)
-)
-(connector
-	(pt 960 3824)
-	(pt 960 3976)
-)
-(connector
-	(pt 720 3536)
-	(pt 720 3672)
-)
-(connector
-	(pt 720 3760)
-	(pt 960 3760)
-)
-(connector
-	(pt 720 3976)
-	(pt 960 3976)
 )
 (connector
 	(pt 360 3424)
@@ -4507,10 +4167,6 @@ refer to the applicable agreement for further details.
 	(pt 448 4304)
 )
 (connector
-	(pt 720 4536)
-	(pt 736 4536)
-)
-(connector
 	(pt 736 4552)
 	(pt 680 4552)
 )
@@ -4530,10 +4186,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 4504)
 	(pt 448 4504)
-)
-(connector
-	(pt 720 4752)
-	(pt 736 4752)
 )
 (connector
 	(pt 736 4768)
@@ -4557,34 +4209,6 @@ refer to the applicable agreement for further details.
 	(pt 448 4720)
 )
 (connector
-	(pt 720 4624)
-	(pt 720 4752)
-)
-(connector
-	(pt 720 4624)
-	(pt 960 4624)
-)
-(connector
-	(pt 960 4624)
-	(pt 960 4472)
-)
-(connector
-	(pt 960 4472)
-	(pt 928 4472)
-)
-(connector
-	(pt 960 4840)
-	(pt 720 4840)
-)
-(connector
-	(pt 720 4840)
-	(pt 720 4984)
-)
-(connector
-	(pt 720 4984)
-	(pt 736 4984)
-)
-(connector
 	(pt 736 5000)
 	(pt 680 5000)
 )
@@ -4606,10 +4230,6 @@ refer to the applicable agreement for further details.
 	(pt 448 4952)
 )
 (connector
-	(pt 720 5200)
-	(pt 736 5200)
-)
-(connector
 	(pt 736 5216)
 	(pt 680 5216)
 )
@@ -4629,34 +4249,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 5168)
 	(pt 448 5168)
-)
-(connector
-	(pt 720 5072)
-	(pt 720 5200)
-)
-(connector
-	(pt 720 5072)
-	(pt 960 5072)
-)
-(connector
-	(pt 960 5072)
-	(pt 960 4920)
-)
-(connector
-	(pt 960 4920)
-	(pt 928 4920)
-)
-(connector
-	(pt 928 4688)
-	(pt 960 4688)
-)
-(connector
-	(pt 960 4688)
-	(pt 960 4840)
-)
-(connector
-	(pt 720 4400)
-	(pt 720 4536)
 )
 (connector
 	(pt 320 4520)
@@ -4738,10 +4330,6 @@ refer to the applicable agreement for further details.
 	(pt 448 5168)
 )
 (connector
-	(pt 720 5400)
-	(pt 736 5400)
-)
-(connector
 	(pt 736 5416)
 	(pt 680 5416)
 )
@@ -4767,30 +4355,6 @@ refer to the applicable agreement for further details.
 	(pt 680 5640)
 )
 (connector
-	(pt 720 5488)
-	(pt 720 5616)
-)
-(connector
-	(pt 720 5488)
-	(pt 960 5488)
-)
-(connector
-	(pt 960 5488)
-	(pt 960 5336)
-)
-(connector
-	(pt 960 5336)
-	(pt 928 5336)
-)
-(connector
-	(pt 960 5704)
-	(pt 720 5704)
-)
-(connector
-	(pt 720 5704)
-	(pt 720 5848)
-)
-(connector
 	(pt 736 5864)
 	(pt 680 5864)
 )
@@ -4801,34 +4365,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 680 6080)
 	(pt 680 6088)
-)
-(connector
-	(pt 720 5936)
-	(pt 720 6064)
-)
-(connector
-	(pt 720 5936)
-	(pt 960 5936)
-)
-(connector
-	(pt 960 5936)
-	(pt 960 5784)
-)
-(connector
-	(pt 960 5784)
-	(pt 928 5784)
-)
-(connector
-	(pt 928 5552)
-	(pt 960 5552)
-)
-(connector
-	(pt 960 5552)
-	(pt 960 5704)
-)
-(connector
-	(pt 720 5264)
-	(pt 720 5400)
 )
 (connector
 	(pt 360 5152)
@@ -4925,10 +4461,6 @@ refer to the applicable agreement for further details.
 	(pt 736 5584)
 )
 (connector
-	(pt 720 5616)
-	(pt 736 5616)
-)
-(connector
 	(pt 680 5632)
 	(pt 736 5632)
 )
@@ -4946,10 +4478,6 @@ refer to the applicable agreement for further details.
 	(pt 736 5816)
 )
 (connector
-	(pt 720 5848)
-	(pt 736 5848)
-)
-(connector
 	(pt 400 5984)
 	(pt 736 5984)
 )
@@ -4963,16 +4491,8 @@ refer to the applicable agreement for further details.
 	(pt 736 6032)
 )
 (connector
-	(pt 720 6064)
-	(pt 736 6064)
-)
-(connector
 	(pt 680 6080)
 	(pt 736 6080)
-)
-(connector
-	(pt 720 6256)
-	(pt 736 6256)
 )
 (connector
 	(pt 736 6272)
@@ -4996,10 +4516,6 @@ refer to the applicable agreement for further details.
 	(pt 448 6224)
 )
 (connector
-	(pt 720 6472)
-	(pt 736 6472)
-)
-(connector
 	(pt 736 6488)
 	(pt 680 6488)
 )
@@ -5019,34 +4535,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 6440)
 	(pt 448 6440)
-)
-(connector
-	(pt 720 6344)
-	(pt 720 6472)
-)
-(connector
-	(pt 720 6344)
-	(pt 960 6344)
-)
-(connector
-	(pt 960 6344)
-	(pt 960 6192)
-)
-(connector
-	(pt 960 6192)
-	(pt 928 6192)
-)
-(connector
-	(pt 960 6560)
-	(pt 720 6560)
-)
-(connector
-	(pt 720 6560)
-	(pt 720 6704)
-)
-(connector
-	(pt 720 6704)
-	(pt 736 6704)
 )
 (connector
 	(pt 736 6720)
@@ -5070,10 +4558,6 @@ refer to the applicable agreement for further details.
 	(pt 448 6672)
 )
 (connector
-	(pt 720 6920)
-	(pt 736 6920)
-)
-(connector
 	(pt 736 6936)
 	(pt 680 6936)
 )
@@ -5093,34 +4577,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 736 6888)
 	(pt 448 6888)
-)
-(connector
-	(pt 720 6792)
-	(pt 720 6920)
-)
-(connector
-	(pt 720 6792)
-	(pt 960 6792)
-)
-(connector
-	(pt 960 6792)
-	(pt 960 6640)
-)
-(connector
-	(pt 960 6640)
-	(pt 928 6640)
-)
-(connector
-	(pt 928 6408)
-	(pt 960 6408)
-)
-(connector
-	(pt 960 6408)
-	(pt 960 6560)
-)
-(connector
-	(pt 720 6120)
-	(pt 720 6256)
 )
 (connector
 	(pt 320 6240)
@@ -5212,26 +4668,6 @@ refer to the applicable agreement for further details.
 	(pt 448 6888)
 )
 (connector
-	(pt 912 6856)
-	(pt 936 6856)
-)
-(connector
-	(pt 936 6856)
-	(pt 936 7016)
-)
-(connector
-	(pt 936 7016)
-	(pt 248 7016)
-)
-(connector
-	(pt 248 192)
-	(pt 736 192)
-)
-(connector
-	(pt 248 192)
-	(pt 248 7016)
-)
-(connector
 	(text "A[4]" (rect 368 1008 388 1020)(font "Arial" ))
 	(pt 736 1024)
 	(pt 360 1024)
@@ -5287,18 +4723,6 @@ refer to the applicable agreement for further details.
 	(pt 320 1720)
 )
 (connector
-	(pt 720 1808)
-	(pt 960 1808)
-)
-(connector
-	(pt 960 1808)
-	(pt 960 1672)
-)
-(connector
-	(pt 960 1672)
-	(pt 928 1672)
-)
-(connector
 	(text "A[8]" (rect 368 1880 388 1892)(font "Arial" ))
 	(pt 736 1896)
 	(pt 360 1896)
@@ -5327,22 +4751,6 @@ refer to the applicable agreement for further details.
 	(text "B[10]" (rect 330 2360 355 2372)(font "Arial" ))
 	(pt 736 2376)
 	(pt 320 2376)
-)
-(connector
-	(pt 720 2680)
-	(pt 960 2680)
-)
-(connector
-	(pt 960 2680)
-	(pt 960 2544)
-)
-(connector
-	(pt 720 2680)
-	(pt 720 2808)
-)
-(connector
-	(pt 960 2544)
-	(pt 928 2544)
 )
 (connector
 	(text "alu_op[3]" (rect 424 2609 436 2653)(font "Arial" )(vertical))
@@ -5425,18 +4833,6 @@ refer to the applicable agreement for further details.
 	(pt 320 3456)
 )
 (connector
-	(pt 928 3408)
-	(pt 960 3408)
-)
-(connector
-	(pt 960 3408)
-	(pt 960 3536)
-)
-(connector
-	(pt 720 3536)
-	(pt 960 3536)
-)
-(connector
 	(text "A[16]" (rect 368 3608 393 3620)(font "Arial" ))
 	(pt 736 3624)
 	(pt 360 3624)
@@ -5480,18 +4876,6 @@ refer to the applicable agreement for further details.
 	(text "B[20]" (rect 330 4504 355 4516)(font "Arial" ))
 	(pt 736 4520)
 	(pt 320 4520)
-)
-(connector
-	(pt 720 4400)
-	(pt 960 4400)
-)
-(connector
-	(pt 960 4400)
-	(pt 960 4272)
-)
-(connector
-	(pt 960 4272)
-	(pt 928 4272)
 )
 (connector
 	(text "alu_op[3]" (rect 424 4337 436 4381)(font "Arial" )(vertical))
@@ -5539,18 +4923,6 @@ refer to the applicable agreement for further details.
 	(pt 360 5152)
 )
 (connector
-	(pt 720 5264)
-	(pt 960 5264)
-)
-(connector
-	(pt 960 5264)
-	(pt 960 5136)
-)
-(connector
-	(pt 960 5136)
-	(pt 928 5136)
-)
-(connector
 	(text "A[24]" (rect 368 5336 393 5348)(font "Arial" ))
 	(pt 736 5352)
 	(pt 360 5352)
@@ -5584,18 +4956,6 @@ refer to the applicable agreement for further details.
 	(text "A[27]" (rect 368 6000 393 6012)(font "Arial" ))
 	(pt 360 6016)
 	(pt 736 6016)
-)
-(connector
-	(pt 720 6120)
-	(pt 960 6120)
-)
-(connector
-	(pt 960 6120)
-	(pt 960 6000)
-)
-(connector
-	(pt 960 6000)
-	(pt 928 6000)
 )
 (connector
 	(text "A[28]" (rect 368 6192 393 6204)(font "Arial" ))
@@ -6703,6 +6063,678 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1416 4032)
 	(pt 1464 4032)
+)
+(connector
+	(pt 928 112)
+	(pt 960 112)
+)
+(connector
+	(text "Carry0To1" (rect 944 204 961 253)(font "Intel Clear" )(vertical))
+	(pt 960 112)
+	(pt 960 256)
+)
+(connector
+	(pt 960 256)
+	(pt 720 256)
+)
+(connector
+	(pt 720 256)
+	(pt 720 400)
+)
+(connector
+	(pt 720 400)
+	(pt 736 400)
+)
+(connector
+	(pt 960 472)
+	(pt 720 472)
+)
+(connector
+	(pt 720 472)
+	(pt 720 616)
+)
+(connector
+	(pt 720 616)
+	(pt 736 616)
+)
+(connector
+	(pt 928 336)
+	(pt 960 336)
+)
+(connector
+	(text "Carry1To2" (rect 944 420 961 469)(font "Intel Clear" )(vertical))
+	(pt 960 336)
+	(pt 960 472)
+)
+(connector
+	(pt 720 832)
+	(pt 736 832)
+)
+(connector
+	(pt 720 704)
+	(pt 720 832)
+)
+(connector
+	(pt 720 704)
+	(pt 960 704)
+)
+(connector
+	(text "Carry2To3" (rect 944 652 961 701)(font "Intel Clear" )(vertical))
+	(pt 960 704)
+	(pt 960 552)
+)
+(connector
+	(pt 960 552)
+	(pt 928 552)
+)
+(connector
+	(text "Carry3To4" (rect 730 912 779 929)(font "Intel Clear" ))
+	(pt 960 928)
+	(pt 720 928)
+)
+(connector
+	(pt 720 928)
+	(pt 720 1072)
+)
+(connector
+	(pt 720 1072)
+	(pt 736 1072)
+)
+(connector
+	(pt 928 768)
+	(pt 960 768)
+)
+(connector
+	(pt 960 768)
+	(pt 960 928)
+)
+(connector
+	(pt 720 1288)
+	(pt 736 1288)
+)
+(connector
+	(pt 720 1160)
+	(pt 720 1288)
+)
+(connector
+	(pt 720 1160)
+	(pt 960 1160)
+)
+(connector
+	(text "Carry4To5" (rect 944 1108 961 1157)(font "Intel Clear" )(vertical))
+	(pt 960 1160)
+	(pt 960 1008)
+)
+(connector
+	(pt 960 1008)
+	(pt 928 1008)
+)
+(connector
+	(text "Carry5To6" (rect 730 1360 779 1377)(font "Intel Clear" ))
+	(pt 960 1376)
+	(pt 720 1376)
+)
+(connector
+	(pt 720 1376)
+	(pt 720 1520)
+)
+(connector
+	(pt 720 1520)
+	(pt 736 1520)
+)
+(connector
+	(pt 928 1224)
+	(pt 960 1224)
+)
+(connector
+	(pt 960 1224)
+	(pt 960 1376)
+)
+(connector
+	(pt 720 1736)
+	(pt 736 1736)
+)
+(connector
+	(pt 720 1608)
+	(pt 720 1736)
+)
+(connector
+	(pt 720 1608)
+	(pt 960 1608)
+)
+(connector
+	(text "Carry6To7" (rect 944 1556 961 1605)(font "Intel Clear" )(vertical))
+	(pt 960 1608)
+	(pt 960 1456)
+)
+(connector
+	(pt 960 1456)
+	(pt 928 1456)
+)
+(connector
+	(pt 720 1944)
+	(pt 736 1944)
+)
+(connector
+	(pt 720 1808)
+	(pt 720 1944)
+)
+(connector
+	(text "Carry7To8" (rect 730 1792 779 1809)(font "Intel Clear" ))
+	(pt 720 1808)
+	(pt 960 1808)
+)
+(connector
+	(pt 960 1808)
+	(pt 960 1672)
+)
+(connector
+	(pt 960 1672)
+	(pt 928 1672)
+)
+(connector
+	(pt 720 2160)
+	(pt 736 2160)
+)
+(connector
+	(pt 720 2032)
+	(pt 720 2160)
+)
+(connector
+	(pt 720 2032)
+	(pt 960 2032)
+)
+(connector
+	(text "Carry8To9" (rect 944 1980 961 2029)(font "Intel Clear" )(vertical))
+	(pt 960 2032)
+	(pt 960 1880)
+)
+(connector
+	(pt 960 1880)
+	(pt 928 1880)
+)
+(connector
+	(pt 960 2248)
+	(pt 720 2248)
+)
+(connector
+	(pt 720 2248)
+	(pt 720 2392)
+)
+(connector
+	(pt 720 2392)
+	(pt 736 2392)
+)
+(connector
+	(pt 928 2096)
+	(pt 960 2096)
+)
+(connector
+	(text "Carry9To10" (rect 944 2191 961 2246)(font "Intel Clear" )(vertical))
+	(pt 960 2096)
+	(pt 960 2248)
+)
+(connector
+	(pt 720 2608)
+	(pt 736 2608)
+)
+(connector
+	(pt 720 2480)
+	(pt 720 2608)
+)
+(connector
+	(pt 720 2480)
+	(pt 960 2480)
+)
+(connector
+	(text "Carry10To11" (rect 944 2418 961 2479)(font "Intel Clear" )(vertical))
+	(pt 960 2480)
+	(pt 960 2328)
+)
+(connector
+	(pt 960 2328)
+	(pt 928 2328)
+)
+(connector
+	(pt 720 2808)
+	(pt 736 2808)
+)
+(connector
+	(pt 720 2680)
+	(pt 960 2680)
+)
+(connector
+	(text "Carry11To12" (rect 944 2618 961 2679)(font "Intel Clear" )(vertical))
+	(pt 960 2680)
+	(pt 960 2544)
+)
+(connector
+	(pt 720 2680)
+	(pt 720 2808)
+)
+(connector
+	(pt 960 2544)
+	(pt 928 2544)
+)
+(connector
+	(pt 720 3024)
+	(pt 736 3024)
+)
+(connector
+	(pt 720 2896)
+	(pt 720 3024)
+)
+(connector
+	(pt 720 2896)
+	(pt 960 2896)
+)
+(connector
+	(text "Carry12To13" (rect 944 2834 961 2895)(font "Intel Clear" )(vertical))
+	(pt 960 2896)
+	(pt 960 2744)
+)
+(connector
+	(pt 960 2744)
+	(pt 928 2744)
+)
+(connector
+	(pt 960 3112)
+	(pt 720 3112)
+)
+(connector
+	(pt 720 3112)
+	(pt 720 3256)
+)
+(connector
+	(pt 720 3256)
+	(pt 736 3256)
+)
+(connector
+	(pt 928 2960)
+	(pt 960 2960)
+)
+(connector
+	(text "Carry13To14" (rect 944 3050 961 3111)(font "Intel Clear" )(vertical))
+	(pt 960 2960)
+	(pt 960 3112)
+)
+(connector
+	(pt 720 3472)
+	(pt 736 3472)
+)
+(connector
+	(pt 720 3344)
+	(pt 720 3472)
+)
+(connector
+	(pt 720 3344)
+	(pt 960 3344)
+)
+(connector
+	(text "Carry14To15" (rect 944 3282 961 3343)(font "Intel Clear" )(vertical))
+	(pt 960 3344)
+	(pt 960 3192)
+)
+(connector
+	(pt 960 3192)
+	(pt 928 3192)
+)
+(connector
+	(pt 720 3672)
+	(pt 736 3672)
+)
+(connector
+	(pt 720 3536)
+	(pt 720 3672)
+)
+(connector
+	(pt 928 3408)
+	(pt 960 3408)
+)
+(connector
+	(text "Carry15To16" (rect 944 3474 961 3535)(font "Intel Clear" )(vertical))
+	(pt 960 3408)
+	(pt 960 3536)
+)
+(connector
+	(pt 720 3536)
+	(pt 960 3536)
+)
+(connector
+	(pt 720 3888)
+	(pt 736 3888)
+)
+(connector
+	(pt 720 3760)
+	(pt 720 3888)
+)
+(connector
+	(text "Carry16To17" (rect 944 3698 961 3759)(font "Intel Clear" )(vertical))
+	(pt 960 3760)
+	(pt 960 3608)
+)
+(connector
+	(pt 960 3608)
+	(pt 928 3608)
+)
+(connector
+	(pt 720 3760)
+	(pt 960 3760)
+)
+(connector
+	(pt 720 3976)
+	(pt 720 4120)
+)
+(connector
+	(pt 720 4120)
+	(pt 736 4120)
+)
+(connector
+	(pt 928 3824)
+	(pt 960 3824)
+)
+(connector
+	(text "Carry17To18" (rect 944 3914 961 3975)(font "Intel Clear" )(vertical))
+	(pt 960 3824)
+	(pt 960 3976)
+)
+(connector
+	(pt 720 3976)
+	(pt 960 3976)
+)
+(connector
+	(pt 720 4336)
+	(pt 736 4336)
+)
+(connector
+	(pt 720 4208)
+	(pt 720 4336)
+)
+(connector
+	(pt 720 4208)
+	(pt 960 4208)
+)
+(connector
+	(text "Carry18To19" (rect 944 4146 961 4207)(font "Intel Clear" )(vertical))
+	(pt 960 4208)
+	(pt 960 4056)
+)
+(connector
+	(pt 960 4056)
+	(pt 928 4056)
+)
+(connector
+	(pt 720 4536)
+	(pt 736 4536)
+)
+(connector
+	(pt 720 4400)
+	(pt 720 4536)
+)
+(connector
+	(pt 720 4400)
+	(pt 960 4400)
+)
+(connector
+	(text "Carry19To20" (rect 944 4338 961 4399)(font "Intel Clear" )(vertical))
+	(pt 960 4400)
+	(pt 960 4272)
+)
+(connector
+	(pt 960 4272)
+	(pt 928 4272)
+)
+(connector
+	(pt 720 4752)
+	(pt 736 4752)
+)
+(connector
+	(pt 720 4624)
+	(pt 720 4752)
+)
+(connector
+	(pt 720 4624)
+	(pt 960 4624)
+)
+(connector
+	(text "Carry20To21" (rect 944 4562 961 4623)(font "Intel Clear" )(vertical))
+	(pt 960 4624)
+	(pt 960 4472)
+)
+(connector
+	(pt 960 4472)
+	(pt 928 4472)
+)
+(connector
+	(pt 960 4840)
+	(pt 720 4840)
+)
+(connector
+	(pt 720 4840)
+	(pt 720 4984)
+)
+(connector
+	(pt 720 4984)
+	(pt 736 4984)
+)
+(connector
+	(pt 928 4688)
+	(pt 960 4688)
+)
+(connector
+	(text "Carry21To22" (rect 944 4778 961 4839)(font "Intel Clear" )(vertical))
+	(pt 960 4688)
+	(pt 960 4840)
+)
+(connector
+	(pt 720 5200)
+	(pt 736 5200)
+)
+(connector
+	(pt 720 5072)
+	(pt 720 5200)
+)
+(connector
+	(pt 720 5072)
+	(pt 960 5072)
+)
+(connector
+	(text "Carry22To23" (rect 944 5010 961 5071)(font "Intel Clear" )(vertical))
+	(pt 960 5072)
+	(pt 960 4920)
+)
+(connector
+	(pt 960 4920)
+	(pt 928 4920)
+)
+(connector
+	(pt 720 5400)
+	(pt 736 5400)
+)
+(connector
+	(pt 720 5264)
+	(pt 720 5400)
+)
+(connector
+	(pt 720 5264)
+	(pt 960 5264)
+)
+(connector
+	(text "Carry23To24" (rect 944 5202 961 5263)(font "Intel Clear" )(vertical))
+	(pt 960 5264)
+	(pt 960 5136)
+)
+(connector
+	(pt 960 5136)
+	(pt 928 5136)
+)
+(connector
+	(pt 720 5488)
+	(pt 720 5616)
+)
+(connector
+	(pt 720 5488)
+	(pt 960 5488)
+)
+(connector
+	(text "Carry24To25" (rect 944 5426 961 5487)(font "Intel Clear" )(vertical))
+	(pt 960 5488)
+	(pt 960 5336)
+)
+(connector
+	(pt 960 5336)
+	(pt 928 5336)
+)
+(connector
+	(pt 720 5616)
+	(pt 736 5616)
+)
+(connector
+	(text "Carry25To26" (rect 730 5688 791 5705)(font "Intel Clear" ))
+	(pt 960 5704)
+	(pt 720 5704)
+)
+(connector
+	(pt 720 5704)
+	(pt 720 5848)
+)
+(connector
+	(pt 928 5552)
+	(pt 960 5552)
+)
+(connector
+	(pt 960 5552)
+	(pt 960 5704)
+)
+(connector
+	(pt 720 5848)
+	(pt 736 5848)
+)
+(connector
+	(pt 720 5936)
+	(pt 720 6064)
+)
+(connector
+	(pt 720 5936)
+	(pt 960 5936)
+)
+(connector
+	(text "Carry26To27" (rect 944 5874 961 5935)(font "Intel Clear" )(vertical))
+	(pt 960 5936)
+	(pt 960 5784)
+)
+(connector
+	(pt 960 5784)
+	(pt 928 5784)
+)
+(connector
+	(pt 720 6064)
+	(pt 736 6064)
+)
+(connector
+	(pt 720 6256)
+	(pt 736 6256)
+)
+(connector
+	(pt 720 6120)
+	(pt 720 6256)
+)
+(connector
+	(pt 720 6120)
+	(pt 960 6120)
+)
+(connector
+	(text "Carry27To28" (rect 944 6058 961 6119)(font "Intel Clear" )(vertical))
+	(pt 960 6120)
+	(pt 960 6000)
+)
+(connector
+	(pt 960 6000)
+	(pt 928 6000)
+)
+(connector
+	(pt 720 6472)
+	(pt 736 6472)
+)
+(connector
+	(pt 720 6344)
+	(pt 720 6472)
+)
+(connector
+	(pt 720 6344)
+	(pt 960 6344)
+)
+(connector
+	(text "Carry28To29" (rect 944 6282 961 6343)(font "Intel Clear" )(vertical))
+	(pt 960 6344)
+	(pt 960 6192)
+)
+(connector
+	(pt 960 6192)
+	(pt 928 6192)
+)
+(connector
+	(text "Carry29To30" (rect 730 6544 791 6561)(font "Intel Clear" ))
+	(pt 960 6560)
+	(pt 720 6560)
+)
+(connector
+	(pt 720 6560)
+	(pt 720 6704)
+)
+(connector
+	(pt 720 6704)
+	(pt 736 6704)
+)
+(connector
+	(pt 928 6408)
+	(pt 960 6408)
+)
+(connector
+	(pt 960 6408)
+	(pt 960 6560)
+)
+(connector
+	(pt 720 6920)
+	(pt 736 6920)
+)
+(connector
+	(pt 720 6792)
+	(pt 720 6920)
+)
+(connector
+	(pt 720 6792)
+	(pt 960 6792)
+)
+(connector
+	(text "Carry30To31" (rect 944 6730 961 6791)(font "Intel Clear" )(vertical))
+	(pt 960 6792)
+	(pt 960 6640)
+)
+(connector
+	(pt 960 6640)
+	(pt 928 6640)
+)
+(connector
+	(pt 912 6856)
+	(pt 936 6856)
+)
+(connector
+	(text "ResultOfLessThan" (rect 920 6932 937 7019)(font "Intel Clear" )(vertical))
+	(pt 936 6856)
+	(pt 936 7016)
+)
+(connector
+	(pt 936 7016)
+	(pt 248 7016)
+)
+(connector
+	(pt 248 192)
+	(pt 736 192)
+)
+(connector
+	(pt 248 192)
+	(pt 248 7016)
 )
 (junction (pt 1032 96))
 (junction (pt 400 48))
