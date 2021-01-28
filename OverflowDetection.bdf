@@ -318,66 +318,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (connector
-	(pt 392 336)
-	(pt 440 336)
-)
-(connector
-	(pt 392 448)
-	(pt 448 448)
-)
-(connector
-	(pt 552 272)
-	(pt 608 272)
-)
-(connector
-	(pt 576 504)
-	(pt 608 504)
-)
-(connector
-	(pt 408 584)
-	(pt 488 584)
-)
-(connector
-	(pt 488 584)
-	(pt 488 528)
-)
-(connector
-	(pt 488 528)
-	(pt 512 528)
-)
-(connector
-	(pt 440 336)
-	(pt 440 264)
-)
-(connector
-	(pt 488 264)
-	(pt 440 264)
-)
-(connector
-	(pt 608 504)
-	(pt 608 400)
-)
-(connector
-	(pt 632 384)
-	(pt 632 400)
-)
-(connector
-	(pt 632 400)
-	(pt 608 400)
-)
-(connector
-	(pt 608 272)
-	(pt 608 368)
-)
-(connector
-	(pt 608 368)
-	(pt 704 368)
-)
-(connector
-	(pt 704 384)
-	(pt 632 384)
-)
-(connector
 	(pt 360 584)
 	(pt 272 584)
 )
@@ -434,18 +374,6 @@ refer to the applicable agreement for further details.
 	(pt 344 448)
 )
 (connector
-	(pt 512 512)
-	(pt 512 528)
-)
-(connector
-	(pt 448 272)
-	(pt 448 448)
-)
-(connector
-	(pt 448 272)
-	(pt 488 272)
-)
-(connector
 	(pt 456 560)
 	(pt 456 280)
 )
@@ -476,6 +404,83 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 936 280)
 	(pt 936 232)
+)
+(connector
+	(text "notA" (rect 402 320 424 337)(font "Intel Clear" ))
+	(pt 392 336)
+	(pt 440 336)
+)
+(connector
+	(pt 440 336)
+	(pt 440 264)
+)
+(connector
+	(pt 488 264)
+	(pt 440 264)
+)
+(connector
+	(text "notB" (rect 402 432 424 449)(font "Intel Clear" ))
+	(pt 392 448)
+	(pt 448 448)
+)
+(connector
+	(pt 448 272)
+	(pt 448 448)
+)
+(connector
+	(pt 448 272)
+	(pt 488 272)
+)
+(connector
+	(pt 408 584)
+	(pt 488 584)
+)
+(connector
+	(text "notResult" (rect 472 535 489 581)(font "Intel Clear" )(vertical))
+	(pt 488 584)
+	(pt 488 528)
+)
+(connector
+	(pt 488 528)
+	(pt 512 528)
+)
+(connector
+	(pt 512 512)
+	(pt 512 528)
+)
+(connector
+	(pt 552 272)
+	(pt 608 272)
+)
+(connector
+	(pt 608 272)
+	(pt 608 368)
+)
+(connector
+	(text "twoNegResultPos" (rect 618 352 702 369)(font "Intel Clear" ))
+	(pt 608 368)
+	(pt 704 368)
+)
+(connector
+	(pt 576 504)
+	(pt 608 504)
+)
+(connector
+	(text "twoPosResNeg" (rect 592 433 609 504)(font "Intel Clear" )(vertical))
+	(pt 608 504)
+	(pt 608 400)
+)
+(connector
+	(pt 632 384)
+	(pt 632 400)
+)
+(connector
+	(pt 632 400)
+	(pt 608 400)
+)
+(connector
+	(pt 704 384)
+	(pt 632 384)
 )
 (junction (pt 272 560))
 (junction (pt 280 448))
