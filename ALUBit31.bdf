@@ -527,18 +527,6 @@ refer to the applicable agreement for further details.
 	(pt 320 136)
 )
 (connector
-	(pt 376 168)
-	(pt 384 168)
-)
-(connector
-	(pt 384 168)
-	(pt 384 152)
-)
-(connector
-	(pt 384 152)
-	(pt 392 152)
-)
-(connector
 	(pt 376 264)
 	(pt 400 264)
 )
@@ -549,18 +537,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 328 312)
 	(pt 336 312)
-)
-(connector
-	(pt 384 312)
-	(pt 392 312)
-)
-(connector
-	(pt 392 312)
-	(pt 392 296)
-)
-(connector
-	(pt 392 296)
-	(pt 400 296)
 )
 (connector
 	(pt 896 48)
@@ -815,6 +791,33 @@ refer to the applicable agreement for further details.
 	(text "S" (rect 762 384 767 401)(font "Intel Clear" ))
 	(pt 752 400)
 	(pt 872 400)
+)
+(connector
+	(pt 376 168)
+	(pt 384 168)
+)
+(connector
+	(text "notA" (rect 368 149 385 171)(font "Intel Clear" )(vertical))
+	(pt 384 168)
+	(pt 384 152)
+)
+(connector
+	(text "notA" (rect 384 136 406 153)(font "Intel Clear" ))
+	(pt 384 152)
+	(pt 392 152)
+)
+(connector
+	(text "notB" (rect 384 296 406 313)(font "Intel Clear" ))
+	(pt 384 312)
+	(pt 392 312)
+)
+(connector
+	(pt 392 312)
+	(pt 392 296)
+)
+(connector
+	(pt 392 296)
+	(pt 400 296)
 )
 (junction (pt 320 136))
 (junction (pt 328 280))

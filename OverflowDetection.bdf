@@ -382,14 +382,6 @@ refer to the applicable agreement for further details.
 	(pt 488 280)
 )
 (connector
-	(pt 768 376)
-	(pt 784 376)
-)
-(connector
-	(pt 784 376)
-	(pt 784 288)
-)
-(connector
 	(pt 264 168)
 	(pt 784 168)
 )
@@ -481,6 +473,15 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 704 384)
 	(pt 632 384)
+)
+(connector
+	(pt 768 376)
+	(pt 784 376)
+)
+(connector
+	(text "signsDontMatch" (rect 768 302 785 377)(font "Intel Clear" )(vertical))
+	(pt 784 376)
+	(pt 784 288)
 )
 (junction (pt 272 560))
 (junction (pt 280 448))

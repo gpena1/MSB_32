@@ -54,9 +54,16 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 200 48)
 		(output)
-		(text "eq" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
-		(text "eq" (rect 164 43 179 62)(font "Intel Clear" (font_size 8)))
+		(text "Overflow" (rect 0 0 53 19)(font "Intel Clear" (font_size 8)))
+		(text "Overflow" (rect 126 43 179 62)(font "Intel Clear" (font_size 8)))
 		(line (pt 200 48)(pt 184 48))
+	)
+	(port
+		(pt 200 64)
+		(output)
+		(text "eq" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
+		(text "eq" (rect 164 59 179 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 200 64)(pt 184 64))
 	)
 	(drawing
 		(rectangle (rect 16 16 184 80))
