@@ -16,6 +16,8 @@ B    |     32
 
 Name | Size(Bits)
 ---------|---------
+eq	|	1
+Overflow	|	1
 Result |     32     
 
 #### DESCRIPTION
@@ -35,8 +37,12 @@ Ainvert | Binvert | CarryIn | Op1 | Op0 |  Result
 1    |    1    |    0    |  0  |  1  | \!(A \& B)
 1    |    1    |    0    |  0  |  0  | \!(A \| B)
 
+Output eq is 1 if A == B.
+Output Overflow is 1 if the result of A op B cannot be stored in 32 bits.
+
 #### AUTHOR
        Alexander T Pastoriza
+       Trevor Cickovski
 
 #### SEE ALSO
        qms(1), modclone(1)
