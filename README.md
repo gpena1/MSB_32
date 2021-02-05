@@ -2,7 +2,7 @@
        ALU32
 
 #### DEPENDENCIES
-       MUX2, MUX4, SameBit, OneBitAdder
+       MUX2, MUX4, SameBit, OneBitAdder, Grounder
 
 #### INPUTS
 
