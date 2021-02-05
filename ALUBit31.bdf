@@ -502,6 +502,21 @@ refer to the applicable agreement for further details.
 		(rectangle (rect 16 16 128 112))
 	)
 )
+(symbol
+	(rect 800 624 960 720)
+	(text "Grounder" (rect 5 0 59 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 82 25 94)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "Input_To_Ground" (rect 0 0 97 14)(font "Arial" (font_size 8)))
+		(text "Input_To_Ground" (rect 21 27 118 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 80))
+	)
+)
 (connector
 	(pt 320 48)
 	(pt 376 48)
@@ -818,6 +833,19 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 392 296)
 	(pt 400 296)
+)
+(connector
+	(pt 736 384)
+	(pt 776 384)
+)
+(connector
+	(text "toGround" (rect 760 609 777 652)(font "Intel Clear" )(vertical))
+	(pt 776 384)
+	(pt 776 656)
+)
+(connector
+	(pt 776 656)
+	(pt 800 656)
 )
 (junction (pt 320 136))
 (junction (pt 328 280))
