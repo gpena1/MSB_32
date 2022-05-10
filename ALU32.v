@@ -1,28 +1,28 @@
-// Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
-// Your use of Altera Corporation's design tools, logic functions 
-// and other software and tools, and its AMPP partner logic 
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
 // functions, and any output files from any of the foregoing 
 // (including device programming or simulation files), and any 
 // associated documentation or information are expressly subject 
-// to the terms and conditions of the Altera Program License 
-// Subscription Agreement, the Altera Quartus II License Agreement,
-// the Altera MegaCore Function License Agreement, or other 
-// applicable license agreement, including, without limitation, 
-// that your use is for the sole purpose of programming logic 
-// devices manufactured by Altera and sold by Altera or its 
-// authorized distributors.  Please refer to the applicable 
-// agreement for further details.
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
 
-// PROGRAM		"Quartus II 64-Bit"
-// VERSION		"Version 15.0.0 Build 145 04/22/2015 SJ Web Edition"
-// CREATED		"Tue Feb  2 07:22:35 2021"
+// PROGRAM		"Quartus Prime"
+// VERSION		"Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+// CREATED		"Tue May 10 09:18:41 2022"
 
 module ALU32(
 	A,
 	alu_op,
 	B,
-	eq,
 	Overflow,
+	Zero,
 	Result
 );
 
@@ -30,8 +30,8 @@ module ALU32(
 input wire	[31:0] A;
 input wire	[4:0] alu_op;
 input wire	[31:0] B;
-output wire	eq;
 output wire	Overflow;
+output wire	Zero;
 output wire	[31:0] Result;
 
 wire	Carry0To1;
@@ -101,7 +101,7 @@ wire	lower12bitsZero;
 wire	middle12bitsZero;
 wire	[1:0] Operation;
 wire	[31:0] Result_ALTERA_SYNTHESIZED;
-wire	upper12bitsZero;
+wire	upper8bitsZero;
 
 
 
@@ -515,7 +515,7 @@ assign	middle12bitsZero = ~(Result_ALTERA_SYNTHESIZED[12] | Result_ALTERA_SYNTHE
 
 
 
-assign	upper12bitsZero = ~(Result_ALTERA_SYNTHESIZED[24] | Result_ALTERA_SYNTHESIZED[26] | Result_ALTERA_SYNTHESIZED[25] | Result_ALTERA_SYNTHESIZED[27] | Result_ALTERA_SYNTHESIZED[29] | Result_ALTERA_SYNTHESIZED[28] | Result_ALTERA_SYNTHESIZED[30] | Result_ALTERA_SYNTHESIZED[31]);
+assign	upper8bitsZero = ~(Result_ALTERA_SYNTHESIZED[24] | Result_ALTERA_SYNTHESIZED[26] | Result_ALTERA_SYNTHESIZED[25] | Result_ALTERA_SYNTHESIZED[27] | Result_ALTERA_SYNTHESIZED[29] | Result_ALTERA_SYNTHESIZED[28] | Result_ALTERA_SYNTHESIZED[30] | Result_ALTERA_SYNTHESIZED[31]);
 
 
 
@@ -523,7 +523,7 @@ assign	upper12bitsZero = ~(Result_ALTERA_SYNTHESIZED[24] | Result_ALTERA_SYNTHES
 
 
 
-assign	eq = lower12bitsZero & middle12bitsZero & upper12bitsZero;
+assign	Zero = lower12bitsZero & middle12bitsZero & upper8bitsZero;
 
 
 

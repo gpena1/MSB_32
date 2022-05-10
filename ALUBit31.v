@@ -1,6 +1,6 @@
-// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Copyright (C) 2020  Intel Corporation. All rights reserved.
 // Your use of Intel Corporation's design tools, logic functions 
-// and other software and tools, and its AMPP partner logic 
+// and other software and tools, and any partner logic 
 // functions, and any output files from any of the foregoing 
 // (including device programming or simulation files), and any 
 // associated documentation or information are expressly subject 
@@ -10,19 +10,20 @@
 // agreement, including, without limitation, that your use is for
 // the sole purpose of programming logic devices manufactured by
 // Intel and sold by Intel or its authorized distributors.  Please
-// refer to the applicable agreement for further details.
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
 
 // PROGRAM		"Quartus Prime"
-// VERSION		"Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
-// CREATED		"Fri Feb 05 05:36:56 2021"
+// VERSION		"Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
+// CREATED		"Tue May 10 09:18:48 2022"
 
 module ALUBit31(
-	a,
-	b,
-	less,
 	Ainvert,
+	a,
 	Binvert,
+	b,
 	CarryIn,
+	less,
 	Operation,
 	Result,
 	Set,
@@ -30,12 +31,12 @@ module ALUBit31(
 );
 
 
-input wire	a;
-input wire	b;
-input wire	less;
 input wire	Ainvert;
+input wire	a;
 input wire	Binvert;
+input wire	b;
 input wire	CarryIn;
+input wire	less;
 input wire	[1:0] Operation;
 output wire	Result;
 output wire	Set;
