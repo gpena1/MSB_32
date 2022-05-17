@@ -1,5 +1,5 @@
 #### MODULE NAME
-       ALU32
+       ALU_32
 
 #### DEPENDENCIES
        MUX2, MUX4, SameBit, OneBitAdder, Grounder
@@ -16,7 +16,7 @@ B    |     32
 
 Name | Size(Bits)
 ---------|---------
-eq	|	1
+Zero	|	1
 Overflow	|	1
 Result |     32     
 
@@ -37,7 +37,7 @@ Ainvert | Binvert | CarryIn | Op1 | Op0 |  Result
 1    |    1    |    0    |  0  |  1  | \!(A \& B)
 1    |    1    |    0    |  0  |  0  | \!(A \| B)
 
-Output eq is 1 if A == B.
+Output Zero is 1 if the result is zero (used to check if A == B with a -).
 Output Overflow is 1 if the result of A op B cannot be stored in 32 bits.
 
 #### AUTHOR
