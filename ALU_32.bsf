@@ -4,9 +4,9 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 2018  Intel Corporation. All rights reserved.
+Copyright (C) 2020  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
-and other software and tools, and its AMPP partner logic 
+and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
@@ -16,12 +16,13 @@ the Intel FPGA IP License Agreement, or other applicable license
 agreement, including, without limitation, that your use is for
 the sole purpose of programming logic devices manufactured by
 Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
 */
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 216 112)
-	(text "ALU32" (rect 5 0 46 19)(font "Intel Clear" (font_size 8)))
+	(text "ALU_32" (rect 5 0 53 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 75 24 92)(font "Intel Clear" ))
 	(port
 		(pt 0 32)
@@ -61,8 +62,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 200 64)
 		(output)
-		(text "eq" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
-		(text "eq" (rect 164 59 179 78)(font "Intel Clear" (font_size 8)))
+		(text "Zero" (rect 0 0 27 19)(font "Intel Clear" (font_size 8)))
+		(text "Zero" (rect 152 59 179 78)(font "Intel Clear" (font_size 8)))
 		(line (pt 200 64)(pt 184 64))
 	)
 	(drawing

@@ -15,9 +15,9 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
-// CREATED		"Tue May 10 09:18:41 2022"
+// CREATED		"Tue May 17 14:29:50 2022"
 
-module ALU32(
+module ALU_32(
 	A,
 	alu_op,
 	B,
