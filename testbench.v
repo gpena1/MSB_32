@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////
-// Testbench for Component: ALU32
+// Testbench for Component: ALU_32
 // Package: FIUSCIS-CDA
 // Course: CDA3102 (Computer Architecture), Florida International University
 // Developer: Trevor Cickovski
@@ -27,8 +27,7 @@ wire zero;
 wire overflow;
 ///////////////////////////////////////////////////////////////////////////////////
 
-
-ALU32 myALU(A, alu_op, B, overflow, zero, S);
+ALU_32 myALU(.A(A), .alu_op(alu_op), .B(B), .Overflow(overflow), .Zero(zero), .Result(S));
 
 initial begin
 ////////////////////////////////////////////////////////////////////////////////////////
