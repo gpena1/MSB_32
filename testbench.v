@@ -19,22 +19,22 @@ reg[4:0] alu_op;
 ///////////////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////////////////////////////////////////////////////////
-// Outputs: S (32-bit)
+// Outputs: Result (32-bit)
 //          eq (1-bit)
 //          overflow (1-bit)
-wire[31:0] S;
+wire[31:0] Result;
 wire zero;
 wire overflow;
 ///////////////////////////////////////////////////////////////////////////////////
 
-ALU_32 myALU(.A(A), .alu_op(alu_op), .B(B), .Overflow(overflow), .Zero(zero), .Result(S));
+ALU_32 myALU(.A(A), .alu_op(alu_op), .B(B), .Overflow(overflow), .Zero(zero), .Result(Result));
 
 initial begin
 ////////////////////////////////////////////////////////////////////////////////////////
 // Test: 45 & 21 = 5
 $display("Testing: 45 & 21 = 5");
 A=45; alu_op=5'b00000; B=21;   #10; 
-verifyEqual32(S, A&B);
+verifyEqual32(Result, A&B);
 $display("  Ensuring no overflow");
 verifyEqual(overflow, 0);
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -43,7 +43,7 @@ verifyEqual(overflow, 0);
 // Test: 45 | 21 = 61
 $display("Testing: 45 | 21 = 61");
 A=45; alu_op=5'b00001; B=21;   #10; 
-verifyEqual32(S, A|B);
+verifyEqual32(Result, A|B);
 $display("  Ensuring no overflow");
 verifyEqual(overflow, 0);
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -52,7 +52,7 @@ verifyEqual(overflow, 0);
 // Test: 45 + 21 = 66
 $display("Testing: 45 + 21 = 66");
 A=45; alu_op=5'b00010; B=21;   #10; 
-verifyEqual32(S, A+B);
+verifyEqual32(Result, A+B);
 $display("  Ensuring no overflow");
 verifyEqual(overflow, 0);
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -61,7 +61,7 @@ verifyEqual(overflow, 0);
 // Test: 45 - 21 = 24
 $display("Testing: 45 - 21 = 24");
 A=45; alu_op=5'b01110; B=21;   #10; 
-verifyEqual32(S, A-B);
+verifyEqual32(Result, A-B);
 $display("  Ensuring no overflow");
 verifyEqual(overflow, 0);
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -70,7 +70,7 @@ verifyEqual(overflow, 0);
 // Test: 45 < 21 = 0
 $display("Testing: 45 < 21 = 0");
 A=45; alu_op=5'b01111; B=21;   #10; 
-verifyEqual32(S, A<B);
+verifyEqual32(Result, A<B);
 $display("  Ensuring no overflow");
 verifyEqual(overflow, 0);
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -79,7 +79,7 @@ verifyEqual(overflow, 0);
 // Test: 21 < 45 = 1
 $display("Testing: 21 < 45 = 0");
 A=21; alu_op=5'b01111; B=45;   #10; 
-verifyEqual32(S, A<B);
+verifyEqual32(Result, A<B);
 $display("  Ensuring no overflow");
 verifyEqual(overflow, 0);
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -88,7 +88,7 @@ verifyEqual(overflow, 0);
 // Test: 45 NOR 21 = 2
 $display("Testing: 45 NOR 21 = 2");
 A=45; alu_op=5'b11000; B=21;   #10; 
-verifyEqual32(S, ~(A|B));
+verifyEqual32(Result, ~(A|B));
 $display("  Ensuring no overflow");
 verifyEqual(overflow, 0);
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -97,7 +97,7 @@ verifyEqual(overflow, 0);
 // Test: 45 NAND 21 = 58
 $display("Testing: 45 NAND 21 = 58");
 A=45; alu_op=5'b11001; B=21;   #10; 
-verifyEqual32(S, ~(A&B));
+verifyEqual32(Result, ~(A&B));
 $display("  Ensuring no overflow");
 verifyEqual(overflow, 0);
 ////////////////////////////////////////////////////////////////////////////////////////
