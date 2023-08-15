@@ -27,15 +27,17 @@ Result |     32
        Ainvert, Binvert, CarryIn, Op1, Op0.  The following operations are sup-
        ported:
 
-Ainvert | Binvert | CarryIn | Op1 | Op0 |  Result  
---------|---------|---------|-----|-----|----------
-0    |    0    |    0    |  0  |  0  |  A \& B   
-0    |    0    |    0    |  0  |  1  |  A \| B   
-0    |    0    |    0    |  1  |  0  |  A \+ B   
-0    |    1    |    1    |  1  |  0  |  A \- B   
-0    |    1    |    1    |  1  |  1  |  A \< B   
-1    |    1    |    0    |  0  |  1  | \!(A \& B)
-1    |    1    |    0    |  0  |  0  | \!(A \| B)
+Shift | Ainvert | Binvert | CarryIn | Op2 | Op1 | Op0 |  Result  
+------|---------|---------|---------|-----|-----|-----|---------
+  0   |    0    |    0    |    0    |  0  |  0  |  0  |   A&B
+  0   |    0    |    0    |    0    |  0  |  0  |  1  |   A|B
+  0   |    0    |    0    |    0    |  0  |  1  |  0  |   A+B
+  0   |    0    |    1    |    1    |  0  |  1  |  0  |   A-B
+  0   |    0    |    1    |    1    |  0  |  1  |  1  |   A<B
+  0   |    1    |    1    |    0    |  0  |  0  |  1  |   !(A&B)
+  0   |    1    |    1    |    0    |  0  |  0  |  0  |   !(A|B)
+  0   |    0    |    0    |    0    |  1  |  0  |  0  |   A*B
+  1   |    X    |    X    |    X    |  X  |  X  |  X  |   B<<H
 
 Output Zero is 1 if the result is zero (used to check if A == B with a -).
 Output Overflow is 1 if the result of A op B cannot be stored in 32 bits.
