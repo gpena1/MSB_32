@@ -15,23 +15,25 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
-// CREATED		"Tue May 17 14:29:50 2022"
+// CREATED		"Tue Aug 15 13:49:33 2023"
 
 module ALU_32(
 	A,
 	alu_op,
 	B,
-	Overflow,
+	H,
 	Zero,
+	Overflow,
 	Result
 );
 
 
 input wire	[31:0] A;
-input wire	[4:0] alu_op;
+input wire	[6:0] alu_op;
 input wire	[31:0] B;
-output wire	Overflow;
+input wire	[4:0] H;
 output wire	Zero;
+output wire	Overflow;
 output wire	[31:0] Result;
 
 wire	Carry0To1;
@@ -99,397 +101,407 @@ wire	Less9;
 wire	LessThanResult;
 wire	lower12bitsZero;
 wire	middle12bitsZero;
+wire	[63:0] multout;
 wire	[1:0] Operation;
+wire	[31:0] R;
 wire	[31:0] Result_ALTERA_SYNTHESIZED;
 wire	upper8bitsZero;
+wire	[31:0] SYNTHESIZED_WIRE_0;
+wire	[31:0] SYNTHESIZED_WIRE_1;
 
 
 
 
 
 ALUBits0To30	b2v_ALU0(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[0]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[0]),
-	.CarryIn(alu_op[2]),
+	.CarryIn(alu_op[3]),
 	.less(LessThanResult),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[0]),
+	.Result(R[0]),
 	.CarryOut(Carry0To1));
 
 
 ALUBits0To30	b2v_ALU1(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[1]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[1]),
 	.CarryIn(Carry0To1),
 	.less(Less1),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[1]),
+	.Result(R[1]),
 	.CarryOut(Carry1To2));
 
 
 ALUBits0To30	b2v_ALU10(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[10]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[10]),
 	.CarryIn(Carry9To10),
 	.less(Less10),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[10]),
+	.Result(R[10]),
 	.CarryOut(Carry10To11));
 
 
 ALUBits0To30	b2v_ALU11(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[11]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[11]),
 	.CarryIn(Carry10To11),
 	.less(Less11),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[11]),
+	.Result(R[11]),
 	.CarryOut(Carry11To12));
 
 
 ALUBits0To30	b2v_ALU12(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[12]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[12]),
 	.CarryIn(Carry11To12),
 	.less(Less12),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[12]),
+	.Result(R[12]),
 	.CarryOut(Carry12To13));
 
 
 ALUBits0To30	b2v_ALU13(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[13]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[13]),
 	.CarryIn(Carry12To13),
 	.less(Less13),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[13]),
+	.Result(R[13]),
 	.CarryOut(Carry13To14));
 
 
 ALUBits0To30	b2v_ALU14(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[14]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[14]),
 	.CarryIn(Carry13To14),
 	.less(Less14),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[14]),
+	.Result(R[14]),
 	.CarryOut(Carry14To15));
 
 
 ALUBits0To30	b2v_ALU15(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[15]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[15]),
 	.CarryIn(Carry14To15),
 	.less(Less15),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[15]),
+	.Result(R[15]),
 	.CarryOut(Carry15To16));
 
 
 ALUBits0To30	b2v_ALU16(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[16]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[16]),
 	.CarryIn(Carry15To16),
 	.less(Less16),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[16]),
+	.Result(R[16]),
 	.CarryOut(Carry16To17));
 
 
 ALUBits0To30	b2v_ALU17(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[17]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[17]),
 	.CarryIn(Carry16To17),
 	.less(Less17),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[17]),
+	.Result(R[17]),
 	.CarryOut(Carry17To18));
 
 
 ALUBits0To30	b2v_ALU18(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[18]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[18]),
 	.CarryIn(Carry17To18),
 	.less(Less18),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[18]),
+	.Result(R[18]),
 	.CarryOut(Carry18To19));
 
 
 ALUBits0To30	b2v_ALU19(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[19]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[19]),
 	.CarryIn(Carry18To19),
 	.less(Less19),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[19]),
+	.Result(R[19]),
 	.CarryOut(Carry19To20));
 
 
 ALUBits0To30	b2v_ALU2(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[2]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[2]),
 	.CarryIn(Carry1To2),
 	.less(Less2),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[2]),
+	.Result(R[2]),
 	.CarryOut(Carry2To3));
 
 
 ALUBits0To30	b2v_ALU20(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[20]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[20]),
 	.CarryIn(Carry19To20),
 	.less(Less20),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[20]),
+	.Result(R[20]),
 	.CarryOut(Carry20To21));
 
 
 ALUBits0To30	b2v_ALU21(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[21]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[21]),
 	.CarryIn(Carry20To21),
 	.less(Less21),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[21]),
+	.Result(R[21]),
 	.CarryOut(Carry21To22));
 
 
 ALUBits0To30	b2v_ALU22(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[22]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[22]),
 	.CarryIn(Carry21To22),
 	.less(Less22),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[22]),
+	.Result(R[22]),
 	.CarryOut(Carry22To23));
 
 
 ALUBits0To30	b2v_ALU23(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[23]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[23]),
 	.CarryIn(Carry22To23),
 	.less(Less23),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[23]),
+	.Result(R[23]),
 	.CarryOut(Carry23To24));
 
 
 ALUBits0To30	b2v_ALU24(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[24]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[24]),
 	.CarryIn(Carry23To24),
 	.less(Less24),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[24]),
+	.Result(R[24]),
 	.CarryOut(Carry24To25));
 
 
 ALUBits0To30	b2v_ALU25(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[25]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[25]),
 	.CarryIn(Carry24To25),
 	.less(Less25),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[25]),
+	.Result(R[25]),
 	.CarryOut(Carry25To26));
 
 
 ALUBits0To30	b2v_ALU26(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[26]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[26]),
 	.CarryIn(Carry25To26),
 	.less(Less26),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[26]),
+	.Result(R[26]),
 	.CarryOut(Carry26To27));
 
 
 ALUBits0To30	b2v_ALU27(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[27]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[27]),
 	.CarryIn(Carry26To27),
 	.less(Less27),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[27]),
+	.Result(R[27]),
 	.CarryOut(Carry27To28));
 
 
 ALUBits0To30	b2v_ALU28(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[28]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[28]),
 	.CarryIn(Carry27To28),
 	.less(Less28),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[28]),
+	.Result(R[28]),
 	.CarryOut(Carry28To29));
 
 
 ALUBits0To30	b2v_ALU29(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[29]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[29]),
 	.CarryIn(Carry28To29),
 	.less(Less29),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[29]),
+	.Result(R[29]),
 	.CarryOut(Carry29To30));
 
 
 ALUBits0To30	b2v_ALU3(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[3]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[3]),
 	.CarryIn(Carry2To3),
 	.less(Less3),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[3]),
+	.Result(R[3]),
 	.CarryOut(Carry3To4));
 
 
 ALUBits0To30	b2v_ALU30(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[30]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[30]),
 	.CarryIn(Carry29To30),
 	.less(Less30),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[30]),
+	.Result(R[30]),
 	.CarryOut(Carry30To31));
 
 
 ALUBit31	b2v_ALU31(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[31]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[31]),
 	.CarryIn(Carry30To31),
 	.less(Less31),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[31]),
+	.Result(R[31]),
 	.Set(LessThanResult),
 	.Overflow(Overflow));
 
 
 ALUBits0To30	b2v_ALU4(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[4]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[4]),
 	.CarryIn(Carry3To4),
 	.less(Less4),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[4]),
+	.Result(R[4]),
 	.CarryOut(Carry4To5));
 
 
 ALUBits0To30	b2v_ALU5(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[5]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[5]),
 	.CarryIn(Carry4To5),
 	.less(Less5),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[5]),
+	.Result(R[5]),
 	.CarryOut(Carry5To6));
 
 
 ALUBits0To30	b2v_ALU6(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[6]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[6]),
 	.CarryIn(Carry5To6),
 	.less(Less6),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[6]),
+	.Result(R[6]),
 	.CarryOut(Carry6To7));
 
 
 ALUBits0To30	b2v_ALU7(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[7]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[7]),
 	.CarryIn(Carry6To7),
 	.less(Less7),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[7]),
+	.Result(R[7]),
 	.CarryOut(Carry7To8));
 
 
 ALUBits0To30	b2v_ALU8(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[8]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[8]),
 	.CarryIn(Carry7To8),
 	.less(Less8),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[8]),
+	.Result(R[8]),
 	.CarryOut(Carry8To9));
 
 
 ALUBits0To30	b2v_ALU9(
-	.Ainvert(alu_op[4]),
+	.Ainvert(alu_op[5]),
 	.a(A[9]),
-	.Binvert(alu_op[3]),
+	.Binvert(alu_op[4]),
 	.b(B[9]),
 	.CarryIn(Carry8To9),
 	.less(Less9),
 	.Operation(Operation),
-	.Result(Result_ALTERA_SYNTHESIZED[9]),
+	.Result(R[9]),
 	.CarryOut(Carry9To10));
+
+
+SLL_32	b2v_inst(
+	.A(B),
+	.H(H),
+	.Y(SYNTHESIZED_WIRE_0));
 
 assign	lower12bitsZero = ~(Result_ALTERA_SYNTHESIZED[0] | Result_ALTERA_SYNTHESIZED[1] | Result_ALTERA_SYNTHESIZED[2] | Result_ALTERA_SYNTHESIZED[4] | Result_ALTERA_SYNTHESIZED[3] | Result_ALTERA_SYNTHESIZED[5] | Result_ALTERA_SYNTHESIZED[7] | Result_ALTERA_SYNTHESIZED[6] | Result_ALTERA_SYNTHESIZED[8] | Result_ALTERA_SYNTHESIZED[10] | Result_ALTERA_SYNTHESIZED[9] | Result_ALTERA_SYNTHESIZED[11]);
 
@@ -519,9 +531,29 @@ assign	upper8bitsZero = ~(Result_ALTERA_SYNTHESIZED[24] | Result_ALTERA_SYNTHESI
 
 
 
+MUX2_32	b2v_inst300(
+	.S(alu_op[6]),
+	.A(R),
+	.B(SYNTHESIZED_WIRE_0),
+	.Y(SYNTHESIZED_WIRE_1));
 
 
 
+
+
+
+
+Multiplier_32	b2v_inst36(
+	.A(A),
+	.B(B),
+	.Z(multout));
+
+
+MUX2_32	b2v_inst37(
+	.S(alu_op[2]),
+	.A(SYNTHESIZED_WIRE_1),
+	.B(multout[31:0]),
+	.Y(Result_ALTERA_SYNTHESIZED));
 
 assign	Zero = lower12bitsZero & middle12bitsZero & upper8bitsZero;
 
