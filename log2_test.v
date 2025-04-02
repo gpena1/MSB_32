@@ -132,7 +132,7 @@ module circuit_tb;
 					break
 				end
 			end
-			calculate_expected = calculated_expected & 31;
+			calculate_expected = calculated_expected & ((1 << OUTPUT_WIDTH) - 1);
 			// Replace this with your actual logic
             // This is just a placeholder example (count number of 1s, limited to 5 bits)
             //calculate_expected = 0;
