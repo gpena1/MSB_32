@@ -126,13 +126,13 @@ module circuit_tb;
         input [INPUT_WIDTH-1:0] inputs;
         begin
             calculate_expected = 0
-			for(integer j = INPUT_WIDTH-1; j >= 0; j = j - 1) begin
-				if(inputs[j]) begin
-					calculate_expected = 1 << j;
-					break
-				end
-			end
-			calculate_expected = calculated_expected & ((1 << OUTPUT_WIDTH) - 1);
+	    for(integer j = INPUT_WIDTH-1; j >= 0; j = j - 1) begin
+		if(inputs[j]) begin
+			calculate_expected = 1 << j;
+			break
+		end
+            end
+            calculate_expected = calculated_expected & ((1 << OUTPUT_WIDTH) - 1);
 			// Replace this with your actual logic
             // This is just a placeholder example (count number of 1s, limited to 5 bits)
             //calculate_expected = 0;

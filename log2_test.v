@@ -133,14 +133,6 @@ module circuit_tb;
 		end
             end
             calculate_expected = calculated_expected & ((1 << OUTPUT_WIDTH) - 1);
-			// Replace this with your actual logic
-            // This is just a placeholder example (count number of 1s, limited to 5 bits)
-            //calculate_expected = 0;
-            //for (integer j = 0; j < INPUT_WIDTH; j = j + 1) begin
-            //    if (inputs[j])
-            //        calculate_expected = calculate_expected + 1;
-            //end
-            //calculate_expected = calculate_expected & ((1 << OUTPUT_WIDTH) - 1);
         end
     endfunction
     
