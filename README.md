@@ -5,4 +5,4 @@ As the repository description suggests, this takes a 32 bit unsigned integer and
 - As per Trevor's suggestion, we need to integrate our circuit into the existing ALU. Must complete testing *before* doing this.
 
 
-![](./MSB_32.bmp)
+![](./log2.bmp)
