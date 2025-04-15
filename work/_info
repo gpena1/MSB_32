@@ -9,49 +9,97 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA_lite/20.1
-vlog2
-Z0 !s110 1744662803
+vEncoder_32
+Z0 !s110 1744679553
 !i10b 1
-!s100 ?0VeSI[n@8Q;EzeNfR6HN2
+!s100 hQDf57eQ7NBMCB:4bOAWl1
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I82HZT<?ZcQ1z@V5zX;o782
+IJX5i6D2zhW5MNeZ:eMR^>3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/brfer/OneDrive/Desktop/log2/log2
-w1744662075
-8C:/Users/brfer/OneDrive/Desktop/log2/log2/log2.v
-FC:/Users/brfer/OneDrive/Desktop/log2/log2/log2.v
-!i122 1
-L0 20 327
+Z3 dC:/Users/flaco/Documents/log2
+w1744678942
+8C:\Users\flaco\Documents\log2\Encoder_32.v
+FC:\Users\flaco\Documents\log2\Encoder_32.v
+!i122 17
+L0 20 119
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1744662803.000000
-!s107 C:/Users/brfer/OneDrive/Desktop/log2/log2/log2.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/brfer/OneDrive/Desktop/log2/log2/log2.v|
+Z5 !s108 1744679553.000000
+!s107 C:\Users\flaco\Documents\log2\Encoder_32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\flaco\Documents\log2\Encoder_32.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
+n@encoder_32
+vlog2
+R0
+!i10b 1
+!s100 ?0VeSI[n@8Q;EzeNfR6HN2
+R1
+IF_:5eaLPRCza=2^1j]1A11
+R2
+R3
+Z8 w1744678341
+8C:/Users/flaco/Documents/log2/log2.v
+FC:/Users/flaco/Documents/log2/log2.v
+!i122 15
+L0 20 327
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/flaco/Documents/log2/log2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/log2.v|
+!i113 1
+R6
+R7
 vlog2_tb
 R0
 !i10b 1
 !s100 VUX6LWFh<[_5bzS;8n@_C3
 R1
-IQakjC]FHLfhE50R2@b6Bd0
+I?U@A4M9[XZ54F`7PWRVCl0
 R2
 R3
-w1744662780
-8C:/Users/brfer/OneDrive/Desktop/log2/log2/testbench.v
-FC:/Users/brfer/OneDrive/Desktop/log2/log2/testbench.v
-!i122 2
+R8
+8C:/Users/flaco/Documents/log2/testbench.v
+FC:/Users/flaco/Documents/log2/testbench.v
+!i122 16
 L0 4 160
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/brfer/OneDrive/Desktop/log2/log2/testbench.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/brfer/OneDrive/Desktop/log2/log2/testbench.v|
+!s107 C:/Users/flaco/Documents/log2/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/testbench.v|
 !i113 1
 R6
 R7
+vTest
+R0
+!i10b 1
+!s100 5]`Jl^a[UFGii[0L^5[B?1
+R1
+IcIb2fQekVZ2inhhAhP[@D3
+R2
+R3
+w1744679549
+8C:\Users\flaco\Documents\log2\Test.v
+FC:\Users\flaco\Documents\log2\Test.v
+!i122 18
+L0 9 106
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\flaco\Documents\log2\Test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\flaco\Documents\log2\Test.v|
+!i113 1
+R6
+R7
+n@test
