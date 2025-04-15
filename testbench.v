@@ -36,7 +36,7 @@ module log2_tb;
     initial begin
         // Initialize Inputs
         A = 0;
-        
+	
         // Wait for global reset
         #100;
         
@@ -128,7 +128,7 @@ module log2_tb;
         
         // Generate some random test cases
         repeat (10) begin
-            A = $random;
+            A = $urandom;
             #10;
             check_result(A);
         end
