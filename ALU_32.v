@@ -14,8 +14,8 @@
 // https://fpgasoftware.intel.com/eula.
 
 // PROGRAM		"Quartus Prime"
-// VERSION		"Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition"
-// CREATED		"Tue Aug 15 13:49:33 2023"
+// VERSION		"Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
+// CREATED		"Mon Apr 21 19:38:45 2025"
 
 module ALU_32(
 	A,
@@ -99,6 +99,8 @@ wire	Less7;
 wire	Less8;
 wire	Less9;
 wire	LessThanResult;
+wire	[4:0] log2;
+wire	[31:0] log2_32;
 wire	lower12bitsZero;
 wire	middle12bitsZero;
 wire	[63:0] multout;
@@ -108,7 +110,16 @@ wire	[31:0] Result_ALTERA_SYNTHESIZED;
 wire	upper8bitsZero;
 wire	[31:0] SYNTHESIZED_WIRE_0;
 wire	[31:0] SYNTHESIZED_WIRE_1;
+wire	SYNTHESIZED_WIRE_2;
+wire	SYNTHESIZED_WIRE_3;
+wire	SYNTHESIZED_WIRE_4;
+wire	SYNTHESIZED_WIRE_5;
+wire	SYNTHESIZED_WIRE_6;
+wire	SYNTHESIZED_WIRE_7;
+wire	SYNTHESIZED_WIRE_8;
+wire	[31:0] SYNTHESIZED_WIRE_9;
 
+assign	SYNTHESIZED_WIRE_6 = 1;
 
 
 
@@ -553,10 +564,61 @@ MUX2_32	b2v_inst37(
 	.S(alu_op[2]),
 	.A(SYNTHESIZED_WIRE_1),
 	.B(multout[31:0]),
-	.Y(Result_ALTERA_SYNTHESIZED));
+	.Y(SYNTHESIZED_WIRE_9));
 
 assign	Zero = lower12bitsZero & middle12bitsZero & upper8bitsZero;
 
+assign	SYNTHESIZED_WIRE_8 = SYNTHESIZED_WIRE_2 & SYNTHESIZED_WIRE_3 & SYNTHESIZED_WIRE_4 & SYNTHESIZED_WIRE_5 & alu_op[0] & alu_op[1] & SYNTHESIZED_WIRE_6 & SYNTHESIZED_WIRE_7;
+
+
+
+log2	b2v_inst42(
+	.A(A),
+	.log2(log2));
+
+
+MUX2_32	b2v_inst43(
+	.S(SYNTHESIZED_WIRE_8),
+	.A(SYNTHESIZED_WIRE_9),
+	.B(log2_32),
+	.Y(Result_ALTERA_SYNTHESIZED));
+
+
+SameBit	b2v_inst44(
+	.Ain(log2[0]),
+	.Aout(log2_32[0]));
+
+
+SameBit	b2v_inst45(
+	.Ain(log2[1]),
+	.Aout(log2_32[1]));
+
+
+SameBit	b2v_inst46(
+	.Ain(log2[2]),
+	.Aout(log2_32[2]));
+
+
+SameBit	b2v_inst47(
+	.Ain(log2[3]),
+	.Aout(log2_32[3]));
+
+
+SameBit	b2v_inst48(
+	.Ain(log2[4]),
+	.Aout(log2_32[4]));
+
+
+
+assign	SYNTHESIZED_WIRE_5 =  ~alu_op[3];
+
+assign	SYNTHESIZED_WIRE_3 =  ~alu_op[4];
+
+assign	SYNTHESIZED_WIRE_4 =  ~alu_op[5];
+
+assign	SYNTHESIZED_WIRE_2 =  ~alu_op[6];
+
+assign	SYNTHESIZED_WIRE_7 =  ~alu_op[2];
 
 
 
@@ -604,5 +666,32 @@ assign	Less6 = 0;
 assign	Less7 = 0;
 assign	Less8 = 0;
 assign	Less9 = 0;
+assign	log2_32[5] = 0;
+assign	log2_32[6] = 0;
+assign	log2_32[7] = 0;
+assign	log2_32[8] = 0;
+assign	log2_32[9] = 0;
+assign	log2_32[10] = 0;
+assign	log2_32[11] = 0;
+assign	log2_32[12] = 0;
+assign	log2_32[13] = 0;
+assign	log2_32[14] = 0;
+assign	log2_32[15] = 0;
+assign	log2_32[16] = 0;
+assign	log2_32[17] = 0;
+assign	log2_32[18] = 0;
+assign	log2_32[19] = 0;
+assign	log2_32[20] = 0;
+assign	log2_32[21] = 0;
+assign	log2_32[22] = 0;
+assign	log2_32[23] = 0;
+assign	log2_32[24] = 0;
+assign	log2_32[25] = 0;
+assign	log2_32[26] = 0;
+assign	log2_32[27] = 0;
+assign	log2_32[28] = 0;
+assign	log2_32[29] = 0;
+assign	log2_32[30] = 0;
+assign	log2_32[31] = 0;
 
 endmodule

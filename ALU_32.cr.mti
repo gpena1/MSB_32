@@ -1,0 +1,134 @@
+../OneBitAdder/OneBitAdder.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/OneBitAdder/OneBitAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OneBitAdder
+
+Top level modules:
+	OneBitAdder
+
+} {} {}} ALU_32.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/ALU_32/ALU_32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_32
+
+Top level modules:
+	ALU_32
+
+} {} {}} ../MUX4/MUX4.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/MUX4/MUX4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX4
+
+Top level modules:
+	MUX4
+
+} {} {}} ../Grounder/Grounder.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/Grounder/Grounder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Grounder
+
+Top level modules:
+	Grounder
+
+} {} {}} ../Multiplier_32/Multiplier_32.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/Multiplier_32/Multiplier_32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Multiplier_32
+
+Top level modules:
+	Multiplier_32
+
+} {} {}} ../OneBitAdderHalf/OneBitAdderHalf.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/OneBitAdderHalf/OneBitAdderHalf.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OneBitAdderHalf
+
+Top level modules:
+	OneBitAdderHalf
+
+} {} {}} ALUBits0To30.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/ALU_32/ALUBits0To30.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUBits0To30
+
+Top level modules:
+	ALUBits0To30
+
+} {} {}} OverflowDetection.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/ALU_32/OverflowDetection.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OverflowDetection
+
+Top level modules:
+	OverflowDetection
+
+} {} {}} ../SameBit/SameBit.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/SameBit/SameBit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SameBit
+
+Top level modules:
+	SameBit
+
+} {} {}} ALUBit31.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/ALU_32/ALUBit31.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALUBit31
+
+Top level modules:
+	ALUBit31
+
+} {} {}} ../Decoder_32/Decoder_32.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/Decoder_32/Decoder_32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Decoder_32
+
+Top level modules:
+	Decoder_32
+
+} {} {}} testbench.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/ALU_32/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} ../MUX32/MUX32.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/MUX32/MUX32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX32
+
+Top level modules:
+	MUX32
+
+} {} {}} ../SLL_32/SLL_32.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/SLL_32/SLL_32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SLL_32
+
+Top level modules:
+	SLL_32
+
+} {} {}} C:/Users/flaco/Documents/log2/log2.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/log2/log2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module log2
+
+Top level modules:
+	log2
+
+} {} {}} C:/Users/flaco/Documents/ALU_32/log2_testbench.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/ALU_32/log2_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module log2_tb
+
+Top level modules:
+	log2_tb
+
+} {} {}} ../MUX2_32/MUX2_32.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/MUX2_32/MUX2_32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX2_32
+
+Top level modules:
+	MUX2_32
+
+} {} {}} ../MUX2/MUX2.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/MUX2/MUX2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX2
+
+Top level modules:
+	MUX2
+
+} {} {}} C:/Users/flaco/Documents/ALU_32/Encoder_32.v {1 {vlog -work work -stats=none C:/Users/flaco/Documents/ALU_32/Encoder_32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Encoder_32
+
+Top level modules:
+	Encoder_32
+
+} {} {}}

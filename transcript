@@ -1,0 +1,135 @@
+# Compile of ALU_32.v was successful.
+# Compile of ALUBit31.v was successful.
+# Compile of ALUBits0To30.v was successful.
+# Compile of testbench.v was successful.
+# Compile of MUX2.v was successful.
+# Compile of MUX4.v was successful.
+# Compile of SameBit.v was successful.
+# Compile of OneBitAdder.v was successful.
+# Compile of OverflowDetection.v was successful.
+# Compile of Grounder.v was successful.
+# Compile of Multiplier_32.v was successful.
+# Compile of SLL_32.v was successful.
+# Compile of MUX2_32.v was successful.
+# Compile of OneBitAdderHalf.v was successful.
+# Compile of MUX32.v was successful.
+# Compile of Decoder_32.v was successful.
+# Compile of log2.v was successful.
+# Compile of log2_testbench.v was successful.
+# Compile of Encoder_32.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 19:39:37 on Apr 21,2025
+# Loading work.testbench
+# Loading work.ALU_32
+# Loading work.ALUBits0To30
+# Loading work.MUX4
+# Loading work.MUX2
+# Loading work.OneBitAdder
+# Loading work.ALUBit31
+# Loading work.Grounder
+# Loading work.OverflowDetection
+# Loading work.SLL_32
+# Loading work.MUX32
+# Loading work.Decoder_32
+# Loading work.MUX2_32
+# Loading work.Multiplier_32
+# Loading work.OneBitAdderHalf
+# Loading work.log2
+# Loading work.Encoder_32
+# Loading work.SameBit
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'b2v_inst3'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/myALU/b2v_inst36/b2v_inst3 File: C:/Users/flaco/Documents/Multiplier_32/Multiplier_32.v Line: 6844
+# ** Warning: (vsim-3722) C:/Users/flaco/Documents/Multiplier_32/Multiplier_32.v(6844): [TFMPC] - Missing connection for port 'C'.
+run -all
+# Testing: 45 & 21 = 5
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing: 45 | 21 = 61
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing: 45 + 21 = 66
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing: 45 - 21 = 24
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing: 45 < 21 = 0
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing: 21 < 45 = 0
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing: 45 NOR 21 = 2
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing: 45 NAND 21 = 58
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing if 45 == 21: 0
+# [PASS]
+# Testing if 45 == 45: 1
+# [PASS]
+# Testing if (2^31-1)+1 overflows: 1
+# [PASS]
+# Testing if (-2^31)+(-1) overflows: 1
+# [PASS]
+# Testing if (-2^31)-1 overflows: 1
+# [PASS]
+# Testing if (2^31-1)-(-1) overflows: 1
+# [PASS]
+# Testing if (2^31-1)<(-1) overflows: 1
+# [PASS]
+# Testing if (-2^31)<(1) overflows: 1
+# [PASS]
+# Testing: 45 << 2 = 180
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing: 45 * 2 = 90
+# [PASS]
+#   Ensuring no overflow
+# [PASS]
+# Testing: log2(0) = 0
+# [PASS]
+# Testing: log2(1) = 0
+# [PASS]
+# Testing: log2(2) = 1
+# [PASS]
+# Testing: log2(3) = 1
+# [PASS]
+# Testing: log2(4) = 2
+# [PASS]
+# Testing: log2(7) = 2
+# [PASS]
+# Testing: log2(8) = 3
+# [PASS]
+# Testing: log2(16) = 4
+# [PASS]
+# Testing: log2(31) = 4
+# [PASS]
+# Testing: log2(32) = 5
+# [PASS]
+# Testing: log2(1023) = 9
+# [PASS]
+# Testing: log2(1024) = 10
+# [PASS]
+# Testing: log2(2^31-1) = 30
+# [PASS]
+# Testing: log2(2^31) = 31
+# [PASS]
+# Testing: log2(2^32-1) = 31
+# [PASS]
+# All tests passed.
+quit -sim
+# End time: 19:40:10 on Apr 21,2025, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 4
