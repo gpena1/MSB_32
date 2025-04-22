@@ -6,7 +6,8 @@ In the event that you run into issues trying to execute the testbenches, I have 
 2. Execute `cd /DIR`.
 3. Execute `./clone_with_dependencies.sh ALU_32`.
 4. Execute `git clone https://github.com/gpena1/log2.git`.
-5. Open `/DIR/log2/ALU_32.mpf` in ModelSim.
-6. Verify that the two testbench files located at `/DIR/log2/testbench.v` and `/DIR/log2/log2/log2_testbench.v` exist. The former is to test the log2-assimilated ALU_32 unit, while the latter tests the log2 unit by itself.
-7. Compile all.
-8. Run the simulations for these testbenches (note that `testbench.v` will show up under `work` as `testbench`, while `log2_testbench.v` will show up under `work` as `log2_tb`).
+5. Open ModelSim. If you have any projects already open, please close them.
+6. Open `/DIR/log2/ALU_32.mpf` in ModelSim.
+7. Verify that the two testbench files located at `/DIR/log2/testbench.v` and `/DIR/log2/log2/log2_testbench.v` exist. The former is to test the log2-assimilated ALU_32 unit, while the latter tests the log2 unit by itself.
+8. Compile all.
+9. Run the simulations for these testbenches (note that `testbench.v` will show up under `work` as `testbench`, while `log2_testbench.v` will show up under `work` as `log2_tb`).
