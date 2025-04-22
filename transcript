@@ -14,13 +14,102 @@
 # Compile of OneBitAdderHalf.v was successful.
 # Compile of MUX32.v was successful.
 # Compile of Decoder_32.v was successful.
+# 16 compiles, 3 failed with no errors.
+# Error opening C:/Users/flaco/Documents/ALU_32/Encoder_32.v
+# Path name 'C:/Users/flaco/Documents/ALU_32/Encoder_32.v' doesn't exist.
+# Error opening C:/Users/flaco/Documents/log2/log2.v
+# Path name 'C:/Users/flaco/Documents/log2/log2.v' doesn't exist.
+# Error opening C:/Users/flaco/Documents/ALU_32/log2_testbench.v
+# Path name 'C:/Users/flaco/Documents/ALU_32/log2_testbench.v' doesn't exist.
+# Compile of ALU_32.v was successful.
+# Compile of ALUBit31.v was successful.
+# Compile of ALUBits0To30.v was successful.
+# Compile of testbench.v was successful.
+# Compile of MUX2.v was successful.
+# Compile of MUX4.v was successful.
+# Compile of SameBit.v was successful.
+# Compile of OneBitAdder.v was successful.
+# Compile of OverflowDetection.v was successful.
+# Compile of Grounder.v was successful.
+# Compile of Multiplier_32.v was successful.
+# Compile of SLL_32.v was successful.
+# Compile of MUX2_32.v was successful.
+# Compile of OneBitAdderHalf.v was successful.
+# Compile of MUX32.v was successful.
+# Compile of Decoder_32.v was successful.
+# Compile of Encoder_32.v was successful.
+# Compile of log2_testbench.v was successful.
+# 18 compiles, 0 failed with no errors.
+# Compile of ALU_32.v was successful.
+# Compile of ALUBit31.v was successful.
+# Compile of ALUBits0To30.v was successful.
+# Compile of testbench.v was successful.
+# Compile of MUX2.v was successful.
+# Compile of MUX4.v was successful.
+# Compile of SameBit.v was successful.
+# Compile of OneBitAdder.v was successful.
+# Compile of OverflowDetection.v was successful.
+# Compile of Grounder.v was successful.
+# Compile of Multiplier_32.v was successful.
+# Compile of SLL_32.v was successful.
+# Compile of MUX2_32.v was successful.
+# Compile of OneBitAdderHalf.v was successful.
+# Compile of MUX32.v was successful.
+# Compile of Decoder_32.v was successful.
+# Compile of Encoder_32.v was successful.
 # Compile of log2.v was successful.
 # Compile of log2_testbench.v was successful.
-# Compile of Encoder_32.v was successful.
 # 19 compiles, 0 failed with no errors.
+vsim -gui work.log2_tb
+# vsim -gui work.log2_tb 
+# Start time: 20:06:51 on Apr 21,2025
+# Loading work.log2_tb
+# Loading work.log2
+# Loading work.Encoder_32
+run -all
+# Starting log2 module test
+# -------------------------
+# A (decimal) | A (hex)     | Expected log2 | Actual log2 | Status
+# -------------------------
+# 0 | 0x00000000 | 0 | 0 | PASS
+# 1 | 0x00000001 | 0 | 0 | PASS
+# 2 | 0x00000002 | 1 | 1 | PASS
+# 3 | 0x00000003 | 1 | 1 | PASS
+# 4 | 0x00000004 | 2 | 2 | PASS
+# 7 | 0x00000007 | 2 | 2 | PASS
+# 8 | 0x00000008 | 3 | 3 | PASS
+# 15 | 0x0000000f | 3 | 3 | PASS
+# 16 | 0x00000010 | 4 | 4 | PASS
+# 31 | 0x0000001f | 4 | 4 | PASS
+# 32 | 0x00000020 | 5 | 5 | PASS
+# 65535 | 0x0000ffff | 15 | 15 | PASS
+# 65536 | 0x00010000 | 16 | 16 | PASS
+# 2147483647 | 0x7fffffff | 30 | 30 | PASS
+# 2147483648 | 0x80000000 | 31 | 31 | PASS
+# 4294967295 | 0xffffffff | 31 | 31 | PASS
+# 3948585912 | 0xeb5aa3b8 | 31 | 31 | PASS
+# 393546790 | 0x17750c26 | 28 | 28 | PASS
+# 2634922342 | 0x9d0db966 | 31 | 31 | PASS
+# 3166299062 | 0xbcb9e3b6 | 31 | 31 | PASS
+# 1359874246 | 0x510e08c6 | 30 | 30 | PASS
+# 2207608390 | 0x83956e46 | 31 | 31 | PASS
+# 1003556722 | 0x3bd10f72 | 29 | 29 | PASS
+# 1989931822 | 0x769bf32e | 30 | 30 | PASS
+# 4197925991 | 0xfa374467 | 31 | 31 | PASS
+# 864441658 | 0x3386553a | 29 | 29 | PASS
+# -------------------------
+# Test summary: 26 tests, 26 passed, 0 failed
+# -------------------------
+# ** Note: $finish    : C:/Users/flaco/Documents/log2/log2/log2_testbench.v(143)
+#    Time: 360 ns  Iteration: 0  Instance: /log2_tb
+# 1
+# Break in Module log2_tb at C:/Users/flaco/Documents/log2/log2/log2_testbench.v line 143
+quit -sim
+# End time: 20:07:02 on Apr 21,2025, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 8
 vsim -gui work.testbench
 # vsim -gui work.testbench 
-# Start time: 19:39:37 on Apr 21,2025
+# Start time: 20:07:10 on Apr 21,2025
 # Loading work.testbench
 # Loading work.ALU_32
 # Loading work.ALUBits0To30
@@ -131,5 +220,5 @@ run -all
 # [PASS]
 # All tests passed.
 quit -sim
-# End time: 19:40:10 on Apr 21,2025, Elapsed time: 0:00:33
-# Errors: 0, Warnings: 4
+# End time: 20:07:30 on Apr 21,2025, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 3

@@ -3,95 +3,95 @@ K4
 z0
 !s11f vlog 2020.1 2020.02, Feb 28 2020
 vALU_32
-Z0 !s110 1745278765
+!s110 1745280403
 !i10b 1
 !s100 fPa9ZiX^?Z4N56emPbe=N1
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Iz5^29?Mo6d1G?8D@4Hk8X1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/flaco/Documents/ALU_32
-w1745278725
-8C:/Users/flaco/Documents/ALU_32/ALU_32.v
-FC:/Users/flaco/Documents/ALU_32/ALU_32.v
-!i122 76
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Icmo;lNGFeHYo@DdD8dZ=03
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/flaco/Documents/log2
+Z3 w1745279932
+8C:/Users/flaco/Documents/log2/ALU_32.v
+FC:/Users/flaco/Documents/log2/ALU_32.v
+!i122 129
 L0 20 678
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1745278765.000000
-!s107 C:/Users/flaco/Documents/ALU_32/ALU_32.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/ALU_32/ALU_32.v|
+Z5 !s108 1745280403.000000
+!s107 C:/Users/flaco/Documents/log2/ALU_32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/ALU_32.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
 n@a@l@u_32
 vALUBit31
-R0
+Z8 !s110 1745280404
 !i10b 1
 !s100 [h@NMSPO4GPYgAY7^;[BJ3
+R0
+I5A^0n[61iRfkHGJGaV2Di1
 R1
-I0HMgeI`Di0iV33e9ie7O53
 R2
 R3
-Z8 w1745275556
-8C:/Users/flaco/Documents/ALU_32/ALUBit31.v
-FC:/Users/flaco/Documents/ALU_32/ALUBit31.v
-!i122 77
+8C:/Users/flaco/Documents/log2/ALUBit31.v
+FC:/Users/flaco/Documents/log2/ALUBit31.v
+!i122 130
 L0 20 91
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/flaco/Documents/ALU_32/ALUBit31.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/ALU_32/ALUBit31.v|
+!s107 C:/Users/flaco/Documents/log2/ALUBit31.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/ALUBit31.v|
 !i113 1
 R6
 R7
 n@a@l@u@bit31
 vALUBits0To30
-R0
+R8
 !i10b 1
 !s100 IGVjFVb3f1SeJmHSU==Ba0
+R0
+I00[OJgBh=o4zJLF2k_OOk3
 R1
-IFFM=DGhAIgLPZadi>d=m;1
 R2
 R3
-R8
-8C:/Users/flaco/Documents/ALU_32/ALUBits0To30.v
-FC:/Users/flaco/Documents/ALU_32/ALUBits0To30.v
-!i122 78
+8C:/Users/flaco/Documents/log2/ALUBits0To30.v
+FC:/Users/flaco/Documents/log2/ALUBits0To30.v
+!i122 131
 L0 20 75
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/flaco/Documents/ALU_32/ALUBits0To30.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/ALU_32/ALUBits0To30.v|
+Z9 !s108 1745280404.000000
+!s107 C:/Users/flaco/Documents/log2/ALUBits0To30.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/ALUBits0To30.v|
 !i113 1
 R6
 R7
 n@a@l@u@bits0@to30
 vDecoder_32
-R0
+R8
 !i10b 1
 !s100 hJ@1ZT_L_i]foPI4<:HFi2
-R1
+R0
 IT0?SVN^5bTkd:6Nj5C:e`0
+R1
 R2
-R3
-Z9 w1745275560
+w1745279918
 8C:/Users/flaco/Documents/Decoder_32/Decoder_32.v
 FC:/Users/flaco/Documents/Decoder_32/Decoder_32.v
-!i122 91
+!i122 144
 L0 20 159
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/Decoder_32/Decoder_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/Decoder_32/Decoder_32.v|
 !i113 1
@@ -99,47 +99,47 @@ R6
 R7
 n@decoder_32
 vEncoder_32
-R0
+R8
 !i10b 1
 !s100 hQDf57eQ7NBMCB:4bOAWl1
+R0
+ISU8D;RFGi8Qn_R02M5KQR1
 R1
-IALF];Dmj6EAVb8P?HeCkP2
 R2
 R3
-Z10 w1745275312
-8C:/Users/flaco/Documents/ALU_32/Encoder_32.v
-FC:/Users/flaco/Documents/ALU_32/Encoder_32.v
-!i122 94
+8C:/Users/flaco/Documents/log2/log2/Encoder_32.v
+FC:/Users/flaco/Documents/log2/log2/Encoder_32.v
+!i122 145
 L0 20 119
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/flaco/Documents/ALU_32/Encoder_32.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/ALU_32/Encoder_32.v|
+R9
+!s107 C:/Users/flaco/Documents/log2/log2/Encoder_32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/log2/Encoder_32.v|
 !i113 1
 R6
 R7
 n@encoder_32
 vGrounder
-R0
+R8
 !i10b 1
 !s100 oX@i7>_l=Qi90[LR`dVdl2
-R1
+R0
 I`GG?MnL[Q5XQlbA6[9z=D1
+R1
 R2
-R3
-R9
+Z10 w1745279917
 8C:/Users/flaco/Documents/Grounder/Grounder.v
 FC:/Users/flaco/Documents/Grounder/Grounder.v
-!i122 85
+!i122 138
 L0 20 14
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/Grounder/Grounder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/Grounder/Grounder.v|
 !i113 1
@@ -147,69 +147,69 @@ R6
 R7
 n@grounder
 vlog2
-R0
+R8
 !i10b 1
 !s100 ?0VeSI[n@8Q;EzeNfR6HN2
+R0
+Ij5aGUiIJL33U7E<T^6eDn2
 R1
-IF_:5eaLPRCza=2^1j]1A11
 R2
-R3
-R10
-8C:/Users/flaco/Documents/log2/log2.v
-FC:/Users/flaco/Documents/log2/log2.v
-!i122 92
+w1745280285
+8C:/Users/flaco/Documents/log2/log2/log2.v
+FC:/Users/flaco/Documents/log2/log2/log2.v
+!i122 146
 L0 20 327
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/flaco/Documents/log2/log2.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/log2.v|
+R9
+!s107 C:/Users/flaco/Documents/log2/log2/log2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/log2/log2.v|
 !i113 1
 R6
 R7
 vlog2_tb
-R0
+R8
 !i10b 1
 !s100 bR@E:HQfN54CQEi8OLgzH2
+R0
+I?<UjLD>]R_n5gTe9@jl1`1
 R1
-IIWgdC6VcR9z^fHkTg08fz3
 R2
 R3
-R10
-8C:/Users/flaco/Documents/ALU_32/log2_testbench.v
-FC:/Users/flaco/Documents/ALU_32/log2_testbench.v
-!i122 93
+8C:/Users/flaco/Documents/log2/log2/log2_testbench.v
+FC:/Users/flaco/Documents/log2/log2/log2_testbench.v
+!i122 147
 L0 4 160
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/flaco/Documents/ALU_32/log2_testbench.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/ALU_32/log2_testbench.v|
+R9
+!s107 C:/Users/flaco/Documents/log2/log2/log2_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/log2/log2_testbench.v|
 !i113 1
 R6
 R7
 vMultiplier_32
-R0
+R8
 !i10b 1
 !s100 oNhV0[V?bWVK7e?7Mg0?:2
-R1
+R0
 IV_c`;G:>ODH^jYk_Q3N2G3
+R1
 R2
-R3
-w1745275561
+Z11 w1745279919
 8C:/Users/flaco/Documents/Multiplier_32/Multiplier_32.v
 FC:/Users/flaco/Documents/Multiplier_32/Multiplier_32.v
-!i122 86
+!i122 139
 L0 20 12930
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/Multiplier_32/Multiplier_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/Multiplier_32/Multiplier_32.v|
 !i113 1
@@ -217,23 +217,23 @@ R6
 R7
 n@multiplier_32
 vMUX2
-R0
+R8
 !i10b 1
 !s100 Skf`m4hzQgM_mf?`BhdKT2
-R1
+R0
 I_GZP@ofQ0O1a;Qf_GZe9o0
+R1
 R2
-R3
-w1745275557
+w1745279915
 8C:/Users/flaco/Documents/MUX2/MUX2.v
 FC:/Users/flaco/Documents/MUX2/MUX2.v
-!i122 80
+!i122 133
 L0 20 30
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/MUX2/MUX2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/MUX2/MUX2.v|
 !i113 1
@@ -241,23 +241,23 @@ R6
 R7
 n@m@u@x2
 vMUX2_32
-R0
+R8
 !i10b 1
 !s100 5zLS>g?aJM8nEg76bVCBJ0
-R1
+R0
 I<_kX69[KFjBiQEC1ISb;62
+R1
 R2
-R3
-Z11 w1745275562
+R11
 8C:/Users/flaco/Documents/MUX2_32/MUX2_32.v
 FC:/Users/flaco/Documents/MUX2_32/MUX2_32.v
-!i122 88
+!i122 141
 L0 20 245
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/MUX2_32/MUX2_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/MUX2_32/MUX2_32.v|
 !i113 1
@@ -265,23 +265,23 @@ R6
 R7
 n@m@u@x2_32
 vMUX32
-R0
+R8
 !i10b 1
 !s100 _SDLA[glC_^bgU<KCH_Gi1
-R1
+R0
 IXmnKDBc4Q[E0cVE=Nh0nd3
+R1
 R2
-R3
-R11
+Z12 w1745279920
 8C:/Users/flaco/Documents/MUX32/MUX32.v
 FC:/Users/flaco/Documents/MUX32/MUX32.v
-!i122 90
+!i122 143
 L0 20 257
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/MUX32/MUX32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/MUX32/MUX32.v|
 !i113 1
@@ -289,23 +289,23 @@ R6
 R7
 n@m@u@x32
 vMUX4
-R0
+R8
 !i10b 1
 !s100 iO3Z@nV>Lc?RKDoI`iSG:3
-R1
+R0
 IX^H?ME2@DO7WTL_EFbkn_0
+R1
 R2
-R3
-Z12 w1745275558
+Z13 w1745279916
 8C:/Users/flaco/Documents/MUX4/MUX4.v
 FC:/Users/flaco/Documents/MUX4/MUX4.v
-!i122 81
+!i122 134
 L0 20 43
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/MUX4/MUX4.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/MUX4/MUX4.v|
 !i113 1
@@ -313,23 +313,23 @@ R6
 R7
 n@m@u@x4
 vOneBitAdder
-R0
+R8
 !i10b 1
 !s100 =I660?Lm6fblR06[6>>2J1
-R1
+R0
 ISOC_FRGP4N9G6JQ81bHK31
+R1
 R2
-R3
-w1745275559
+R10
 8C:/Users/flaco/Documents/OneBitAdder/OneBitAdder.v
 FC:/Users/flaco/Documents/OneBitAdder/OneBitAdder.v
-!i122 83
+!i122 136
 L0 20 49
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/OneBitAdder/OneBitAdder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/OneBitAdder/OneBitAdder.v|
 !i113 1
@@ -337,23 +337,23 @@ R6
 R7
 n@one@bit@adder
 vOneBitAdderHalf
-R0
+R8
 !i10b 1
 !s100 ^cdZD_>ddXgin<;6a3b7l2
-R1
+R0
 Ioo<1;N6B`SF8nRgNWCdU01
+R1
 R2
-R3
-Z13 w1745275563
+R12
 8C:/Users/flaco/Documents/OneBitAdderHalf/OneBitAdderHalf.v
 FC:/Users/flaco/Documents/OneBitAdderHalf/OneBitAdderHalf.v
-!i122 89
+!i122 142
 L0 20 35
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/OneBitAdderHalf/OneBitAdderHalf.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/OneBitAdderHalf/OneBitAdderHalf.v|
 !i113 1
@@ -361,47 +361,47 @@ R6
 R7
 n@one@bit@adder@half
 vOverflowDetection
-R0
+R8
 !i10b 1
 !s100 J[fgzG`k`B_M1^Q]7<3z=3
+R0
+I:OO?eIziUoh=Q?zAI5YOd2
 R1
-Ii]o42Ibz9=:_0P^h8Li`P3
 R2
 R3
-R8
-8C:/Users/flaco/Documents/ALU_32/OverflowDetection.v
-FC:/Users/flaco/Documents/ALU_32/OverflowDetection.v
-!i122 84
+8C:/Users/flaco/Documents/log2/OverflowDetection.v
+FC:/Users/flaco/Documents/log2/OverflowDetection.v
+!i122 137
 L0 20 41
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/flaco/Documents/ALU_32/OverflowDetection.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/ALU_32/OverflowDetection.v|
+R9
+!s107 C:/Users/flaco/Documents/log2/OverflowDetection.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/OverflowDetection.v|
 !i113 1
 R6
 R7
 n@overflow@detection
 vSameBit
-R0
+R8
 !i10b 1
 !s100 YTo?1mH>N:Ab@9[6<6i2V2
-R1
+R0
 IzeX7NCUkUO^@ljSTE7Ml11
+R1
 R2
-R3
-R12
+R13
 8C:/Users/flaco/Documents/SameBit/SameBit.v
 FC:/Users/flaco/Documents/SameBit/SameBit.v
-!i122 82
+!i122 135
 L0 20 16
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/SameBit/SameBit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/SameBit/SameBit.v|
 !i113 1
@@ -409,23 +409,23 @@ R6
 R7
 n@same@bit
 vSLL_32
-R0
+R8
 !i10b 1
 !s100 RJCkjz6lGhmh1eNb55]gN2
-R1
+R0
 I2>9VEXB@_0XC;iG:REnR33
+R1
 R2
-R3
-R13
+w1745279921
 8C:/Users/flaco/Documents/SLL_32/SLL_32.v
 FC:/Users/flaco/Documents/SLL_32/SLL_32.v
-!i122 87
+!i122 140
 L0 20 1206
 R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/flaco/Documents/SLL_32/SLL_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/SLL_32/SLL_32.v|
 !i113 1
@@ -433,26 +433,26 @@ R6
 R7
 n@s@l@l_32
 vtestbench
-R0
+R8
 !i10b 1
 !s100 <LD_G1M?nSKk=DA3_Qfg?0
+R0
+IcjIO]nIoBYT5WK3038=EK0
 R1
-IbDGI4d7D>D7SSSU93U`j51
 R2
 R3
-w1745278131
-8C:/Users/flaco/Documents/ALU_32/testbench.v
-FC:/Users/flaco/Documents/ALU_32/testbench.v
+8C:/Users/flaco/Documents/log2/testbench.v
+FC:/Users/flaco/Documents/log2/testbench.v
 F../Test/Test.v
-!i122 79
+!i122 132
 L0 10 390
 R4
 r1
 !s85 0
 31
-R5
-!s107 ../Test/Test.v|C:/Users/flaco/Documents/ALU_32/testbench.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/ALU_32/testbench.v|
+R9
+!s107 ../Test/Test.v|C:/Users/flaco/Documents/log2/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/flaco/Documents/log2/testbench.v|
 !i113 1
 R6
 R7
