@@ -14,55 +14,13 @@
 # Compile of OneBitAdderHalf.v was successful.
 # Compile of MUX32.v was successful.
 # Compile of Decoder_32.v was successful.
-# 16 compiles, 3 failed with no errors.
-# Error opening C:/Users/flaco/Documents/ALU_32/Encoder_32.v
-# Path name 'C:/Users/flaco/Documents/ALU_32/Encoder_32.v' doesn't exist.
-# Error opening C:/Users/flaco/Documents/log2/log2.v
-# Path name 'C:/Users/flaco/Documents/log2/log2.v' doesn't exist.
-# Error opening C:/Users/flaco/Documents/ALU_32/log2_testbench.v
-# Path name 'C:/Users/flaco/Documents/ALU_32/log2_testbench.v' doesn't exist.
-# Compile of ALU_32.v was successful.
-# Compile of ALUBit31.v was successful.
-# Compile of ALUBits0To30.v was successful.
-# Compile of testbench.v was successful.
-# Compile of MUX2.v was successful.
-# Compile of MUX4.v was successful.
-# Compile of SameBit.v was successful.
-# Compile of OneBitAdder.v was successful.
-# Compile of OverflowDetection.v was successful.
-# Compile of Grounder.v was successful.
-# Compile of Multiplier_32.v was successful.
-# Compile of SLL_32.v was successful.
-# Compile of MUX2_32.v was successful.
-# Compile of OneBitAdderHalf.v was successful.
-# Compile of MUX32.v was successful.
-# Compile of Decoder_32.v was successful.
-# Compile of Encoder_32.v was successful.
-# Compile of log2_testbench.v was successful.
-# 18 compiles, 0 failed with no errors.
-# Compile of ALU_32.v was successful.
-# Compile of ALUBit31.v was successful.
-# Compile of ALUBits0To30.v was successful.
-# Compile of testbench.v was successful.
-# Compile of MUX2.v was successful.
-# Compile of MUX4.v was successful.
-# Compile of SameBit.v was successful.
-# Compile of OneBitAdder.v was successful.
-# Compile of OverflowDetection.v was successful.
-# Compile of Grounder.v was successful.
-# Compile of Multiplier_32.v was successful.
-# Compile of SLL_32.v was successful.
-# Compile of MUX2_32.v was successful.
-# Compile of OneBitAdderHalf.v was successful.
-# Compile of MUX32.v was successful.
-# Compile of Decoder_32.v was successful.
 # Compile of Encoder_32.v was successful.
 # Compile of log2.v was successful.
 # Compile of log2_testbench.v was successful.
 # 19 compiles, 0 failed with no errors.
 vsim -gui work.log2_tb
 # vsim -gui work.log2_tb 
-# Start time: 20:06:51 on Apr 21,2025
+# Start time: 20:32:40 on Apr 21,2025
 # Loading work.log2_tb
 # Loading work.log2
 # Loading work.Encoder_32
@@ -105,11 +63,11 @@ run -all
 # 1
 # Break in Module log2_tb at C:/Users/flaco/Documents/log2/log2/log2_testbench.v line 143
 quit -sim
-# End time: 20:07:02 on Apr 21,2025, Elapsed time: 0:00:11
-# Errors: 0, Warnings: 8
 vsim -gui work.testbench
+# End time: 20:32:57 on Apr 21,2025, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 2
 # vsim -gui work.testbench 
-# Start time: 20:07:10 on Apr 21,2025
+# Start time: 20:32:57 on Apr 21,2025
 # Loading work.testbench
 # Loading work.ALU_32
 # Loading work.ALUBits0To30
@@ -220,5 +178,5 @@ run -all
 # [PASS]
 # All tests passed.
 quit -sim
-# End time: 20:07:30 on Apr 21,2025, Elapsed time: 0:00:20
+# End time: 20:33:14 on Apr 21,2025, Elapsed time: 0:00:17
 # Errors: 0, Warnings: 3
